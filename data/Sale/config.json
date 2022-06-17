@@ -1,0 +1,12 @@
+{
+    "name": "Sale",
+    "creationDate": {
+        "$$date": 1596447589049
+    },
+    "modificationDate": {
+        "$$date": 1596447589049
+    },
+    "shortid": "ihCBKRd",
+    "_id": "DViY7loCsMtyZgoq",
+    "$entitySet": "folders"
+}

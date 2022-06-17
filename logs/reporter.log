@@ -1,0 +1,1536 @@
+2022-06-16T15:11:28.443Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:11:28.445Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:11:28.452Z - info: Extensions location cache doesn't contain entry yet, crawling
+2022-06-16T15:11:28.698Z - info: Found 35 extension(s)
+2022-06-16T15:11:28.747Z - info: Using extension authentication@3.3.1
+2022-06-16T15:11:28.852Z - info: Using extension base@3.0.0
+2022-06-16T15:11:28.855Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:11:28.856Z - info: Using extension cli@3.2.1
+2022-06-16T15:11:28.858Z - info: Using extension components@3.2.1
+2022-06-16T15:11:28.858Z - info: Using extension data@3.0.1
+2022-06-16T15:11:28.859Z - info: Using extension express@3.4.1
+2022-06-16T15:11:28.997Z - info: Using extension freeze@3.0.1
+2022-06-16T15:11:28.998Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:11:29.060Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:11:29.061Z - info: Using extension import-export@3.1.2
+2022-06-16T15:11:29.068Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:11:29.069Z - info: Using extension licensing@3.0.2
+2022-06-16T15:11:29.081Z - info: Using extension localization@3.2.1
+2022-06-16T15:11:29.082Z - info: Using extension npm@3.1.2
+2022-06-16T15:11:29.084Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:11:29.085Z - info: Using extension reports@3.0.5
+2022-06-16T15:11:29.087Z - info: Using extension tags@3.1.0
+2022-06-16T15:11:29.088Z - info: Using extension text@3.0.0
+2022-06-16T15:11:29.089Z - info: Using extension version-control@3.1.1
+2022-06-16T15:11:29.097Z - info: Using extension assets@3.4.2
+2022-06-16T15:11:29.104Z - info: Using extension authorization@3.2.1
+2022-06-16T15:11:29.107Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:11:29.109Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:11:29.111Z - info: Using extension docx@3.3.1
+2022-06-16T15:11:29.113Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:11:29.159Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:11:29.160Z - info: Using extension pptx@3.2.1
+2022-06-16T15:11:29.161Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:11:29.187Z - info: Using extension scripts@3.2.1
+2022-06-16T15:11:29.188Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:11:29.188Z - info: Using extension studio@3.6.0
+2022-06-16T15:11:29.251Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:11:29.266Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:11:29.266Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:11:29.268Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:11:29.269Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:11:29.269Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:11:29.269Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:11:29.269Z - info: Using fs provider for template store.
+2022-06-16T15:11:29.275Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:11:29.280Z - info: fs store is loading data
+2022-06-16T15:11:29.284Z - info: fs store is initialized successfully
+2022-06-16T15:11:29.320Z - info: Creating default express app.
+2022-06-16T15:11:29.336Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:11:29.337Z - info: Verifying license key free
+2022-06-16T15:11:29.338Z - info: Using free license
+2022-06-16T15:11:29.347Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2022-06-16T15:11:29.349Z - info: Migration successful
+2022-06-16T15:11:29.350Z - info: Initializing worker threads
+2022-06-16T15:11:29.541Z - info: 2 worker threads initialized in 191ms
+2022-06-16T15:11:29.541Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:11:29.542Z - info: reporter initialized
+2022-06-16T15:11:44.193Z - info: Logging in user admin
+2022-06-16T15:12:22.226Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:12:22.228Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:12:22.234Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:12:22.238Z - info: Found 35 extension(s)
+2022-06-16T15:12:22.293Z - info: Using extension authentication@3.3.1
+2022-06-16T15:12:22.391Z - info: Using extension base@3.0.0
+2022-06-16T15:12:22.394Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:12:22.395Z - info: Using extension cli@3.2.1
+2022-06-16T15:12:22.397Z - info: Using extension components@3.2.1
+2022-06-16T15:12:22.398Z - info: Using extension data@3.0.1
+2022-06-16T15:12:22.398Z - info: Using extension express@3.4.1
+2022-06-16T15:12:22.521Z - info: Using extension freeze@3.0.1
+2022-06-16T15:12:22.522Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:12:22.575Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:12:22.576Z - info: Using extension import-export@3.1.2
+2022-06-16T15:12:22.581Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:12:22.582Z - info: Using extension licensing@3.0.2
+2022-06-16T15:12:22.594Z - info: Using extension localization@3.2.1
+2022-06-16T15:12:22.594Z - info: Using extension npm@3.1.2
+2022-06-16T15:12:22.596Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:12:22.598Z - info: Using extension reports@3.0.5
+2022-06-16T15:12:22.599Z - info: Using extension tags@3.1.0
+2022-06-16T15:12:22.600Z - info: Using extension text@3.0.0
+2022-06-16T15:12:22.601Z - info: Using extension version-control@3.1.1
+2022-06-16T15:12:22.608Z - info: Using extension assets@3.4.2
+2022-06-16T15:12:22.614Z - info: Using extension authorization@3.2.1
+2022-06-16T15:12:22.617Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:12:22.618Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:12:22.620Z - info: Using extension docx@3.3.1
+2022-06-16T15:12:22.622Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:12:22.662Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:12:22.662Z - info: Using extension pptx@3.2.1
+2022-06-16T15:12:22.664Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:12:22.686Z - info: Using extension scripts@3.2.1
+2022-06-16T15:12:22.687Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:12:22.687Z - info: Using extension studio@3.6.0
+2022-06-16T15:12:22.746Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:12:22.759Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:12:22.759Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:12:22.760Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:12:22.761Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:12:22.762Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:12:22.762Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:12:22.762Z - info: Using fs provider for template store.
+2022-06-16T15:12:22.767Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:12:22.770Z - info: fs store is loading data
+2022-06-16T15:12:22.778Z - info: fs store is initialized successfully
+2022-06-16T15:12:22.790Z - info: Creating default express app.
+2022-06-16T15:12:22.807Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:12:22.811Z - info: Verifying license key free
+2022-06-16T15:12:22.812Z - info: Using free license
+2022-06-16T15:12:22.816Z - info: Initializing worker threads
+2022-06-16T15:12:22.964Z - info: 2 worker threads initialized in 148ms
+2022-06-16T15:12:22.964Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:12:22.965Z - info: reporter initialized
+2022-06-16T15:12:30.904Z - info: Render request 1 queued for execution and waiting for availible worker rootId=n5dweuzc3z47b70, id=n5dweuzc3z47b70
+2022-06-16T15:12:30.968Z - info: Starting rendering request 1 (user: admin) rootId=n5dweuzc3z47b70, id=n5dweuzc3z47b70
+2022-06-16T15:12:30.969Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=n5dweuzc3z47b70, id=n5dweuzc3z47b70
+2022-06-16T15:12:32.494Z - info: pdf-utils is starting pdf processing rootId=n5dweuzc3z47b70, id=n5dweuzc3z47b70
+2022-06-16T15:12:32.513Z - info: Starting rendering request 1 (user: admin) rootId=n5dweuzc3z47b70, id=3noa0x36ov80n43
+2022-06-16T15:12:32.513Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=n5dweuzc3z47b70, id=3noa0x36ov80n43
+2022-06-16T15:12:32.695Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=n5dweuzc3z47b70, id=3noa0x36ov80n43
+2022-06-16T15:12:32.795Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=n5dweuzc3z47b70, id=3noa0x36ov80n43
+2022-06-16T15:12:32.898Z - info: Rendering request 1 finished in 1924 ms rootId=n5dweuzc3z47b70, id=3noa0x36ov80n43
+2022-06-16T15:12:32.899Z - info: pdf-utils pdf processing was finished rootId=n5dweuzc3z47b70, id=n5dweuzc3z47b70
+2022-06-16T15:12:32.899Z - info: Rendering request 1 finished in 1995 ms rootId=n5dweuzc3z47b70, id=n5dweuzc3z47b70
+2022-06-16T15:12:55.918Z - info: Render request 2 queued for execution and waiting for availible worker rootId=1bu87yo53wo0rd6, id=1bu87yo53wo0rd6
+2022-06-16T15:12:55.934Z - info: Starting rendering request 2 (user: admin) rootId=1bu87yo53wo0rd6, id=1bu87yo53wo0rd6
+2022-06-16T15:12:55.934Z - info: Rendering template { name: invoice-main, recipe: html-with-browser-client, engine: handlebars, preview: true } rootId=1bu87yo53wo0rd6, id=1bu87yo53wo0rd6
+2022-06-16T15:12:55.965Z - info: Rendering request 2 finished in 41 ms rootId=1bu87yo53wo0rd6, id=1bu87yo53wo0rd6
+2022-06-16T15:13:08.254Z - info: Render request 3 queued for execution and waiting for availible worker rootId=hj79jqvr435jpl4, id=hj79jqvr435jpl4
+2022-06-16T15:13:08.268Z - info: Starting rendering request 3 (user: admin) rootId=hj79jqvr435jpl4, id=hj79jqvr435jpl4
+2022-06-16T15:13:08.268Z - info: Rendering template { name: invoice-main, recipe: docx, engine: handlebars, preview: true } rootId=hj79jqvr435jpl4, id=hj79jqvr435jpl4
+2022-06-16T15:13:08.335Z - warn: Error when processing render request 3 docx requires template.docx.templateAsset or template.docx.templateAssetShortid to be set Error: docx requires template.docx.templateAsset or template.docx.templateAssetShortid to be set
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at WorkerReporter.createError (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:47:12)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-docx/lib/recipe.js:7:20)
+    at Object.execute (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-docx/lib/worker.js:9:47)
+    at invokeRender (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:95:18)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:147:7)
+    at async /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:19
+    at async Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:19) rootId=hj79jqvr435jpl4, id=hj79jqvr435jpl4
+2022-06-16T15:13:08.336Z - warn: Rendering request 3 finished with error in 78 ms rootId=hj79jqvr435jpl4, id=hj79jqvr435jpl4
+2022-06-16T15:13:17.566Z - info: Render request 4 queued for execution and waiting for availible worker rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.591Z - info: Starting rendering request 4 (user: admin) rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.591Z - info: Rendering template { name: invoice-main, recipe: xlsx, engine: handlebars, preview: true } rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.627Z - info: xlsx generation is starting rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.665Z - info: Starting rendering request 4 (user: admin) rootId=kbbnt0l4yriznmd, id=xspzm1wxgg75e5c
+2022-06-16T15:13:17.665Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=kbbnt0l4yriznmd, id=xspzm1wxgg75e5c
+2022-06-16T15:13:17.740Z - info: Rendering request 4 finished in 109 ms rootId=kbbnt0l4yriznmd, id=xspzm1wxgg75e5c
+2022-06-16T15:13:17.792Z - info: xlsx generation was finished rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.792Z - info: xlsx transformation is starting rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.810Z - warn: Error when processing render request 4 Error parsing xlsx content, aren't you missing {{{xlsxPrint}}}?. Unexpected token < in JSON at position 0 Error: Error parsing xlsx content, aren't you missing {{{xlsxPrint}}}?. Unexpected token < in JSON at position 0
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at WorkerReporter.createError (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:47:12)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-xlsx/lib/transformation/index.js:35:20)
+    at async module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-xlsx/lib/recipe.js:14:5)
+    at async invokeRender (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:95:5)
+    at async WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:147:7)
+    at async /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:19
+    at async Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:19)
+caused by: SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-xlsx/lib/transformation/index.js:33:20)
+    at async module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-xlsx/lib/recipe.js:14:5)
+    at async invokeRender (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:95:5)
+    at async WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:147:7)
+    at async /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:19
+    at async Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:19) rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:17.811Z - warn: Rendering request 4 finished with error in 243 ms rootId=kbbnt0l4yriznmd, id=kbbnt0l4yriznmd
+2022-06-16T15:13:21.838Z - info: Render request 5 queued for execution and waiting for availible worker rootId=qld5sqc2jmm78af, id=qld5sqc2jmm78af
+2022-06-16T15:13:21.853Z - info: Starting rendering request 5 (user: admin) rootId=qld5sqc2jmm78af, id=qld5sqc2jmm78af
+2022-06-16T15:13:21.854Z - info: Rendering template { name: invoice-main, recipe: html, engine: handlebars, preview: true } rootId=qld5sqc2jmm78af, id=qld5sqc2jmm78af
+2022-06-16T15:13:21.870Z - info: Rendering request 5 finished in 31 ms rootId=qld5sqc2jmm78af, id=qld5sqc2jmm78af
+2022-06-16T15:13:31.977Z - info: Render request 6 queued for execution and waiting for availible worker rootId=87nt97derad2vwg, id=87nt97derad2vwg
+2022-06-16T15:13:31.990Z - info: Starting rendering request 6 (user: admin) rootId=87nt97derad2vwg, id=87nt97derad2vwg
+2022-06-16T15:13:31.990Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=87nt97derad2vwg, id=87nt97derad2vwg
+2022-06-16T15:13:32.451Z - info: pdf-utils is starting pdf processing rootId=87nt97derad2vwg, id=87nt97derad2vwg
+2022-06-16T15:13:32.451Z - info: Starting rendering request 6 (user: admin) rootId=87nt97derad2vwg, id=sw4da5pxi89xoe5
+2022-06-16T15:13:32.451Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=87nt97derad2vwg, id=sw4da5pxi89xoe5
+2022-06-16T15:13:32.652Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=87nt97derad2vwg, id=sw4da5pxi89xoe5
+2022-06-16T15:13:32.806Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=87nt97derad2vwg, id=sw4da5pxi89xoe5
+2022-06-16T15:13:32.807Z - info: Rendering request 6 finished in 772 ms rootId=87nt97derad2vwg, id=sw4da5pxi89xoe5
+2022-06-16T15:13:32.808Z - info: pdf-utils pdf processing was finished rootId=87nt97derad2vwg, id=87nt97derad2vwg
+2022-06-16T15:13:32.808Z - info: Rendering request 6 finished in 829 ms rootId=87nt97derad2vwg, id=87nt97derad2vwg
+2022-06-16T15:28:52.823Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:28:52.826Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:28:52.831Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:28:52.835Z - info: Found 35 extension(s)
+2022-06-16T15:28:52.937Z - info: Using extension authentication@3.3.1
+2022-06-16T15:28:53.112Z - info: Using extension base@3.0.0
+2022-06-16T15:28:53.115Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:28:53.116Z - info: Using extension cli@3.2.1
+2022-06-16T15:28:53.118Z - info: Using extension components@3.2.1
+2022-06-16T15:28:53.120Z - info: Using extension data@3.0.1
+2022-06-16T15:28:53.121Z - info: Using extension express@3.4.1
+2022-06-16T15:28:53.322Z - info: Using extension freeze@3.0.1
+2022-06-16T15:28:53.323Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:28:53.428Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:28:53.429Z - info: Using extension import-export@3.1.2
+2022-06-16T15:28:53.437Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:28:53.438Z - info: Using extension licensing@3.0.2
+2022-06-16T15:28:53.455Z - info: Using extension localization@3.2.1
+2022-06-16T15:28:53.457Z - info: Using extension npm@3.1.2
+2022-06-16T15:28:53.459Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:28:53.460Z - info: Using extension reports@3.0.5
+2022-06-16T15:28:53.462Z - info: Using extension tags@3.1.0
+2022-06-16T15:28:53.464Z - info: Using extension text@3.0.0
+2022-06-16T15:28:53.464Z - info: Using extension version-control@3.1.1
+2022-06-16T15:28:53.473Z - info: Using extension assets@3.4.2
+2022-06-16T15:28:53.483Z - info: Using extension authorization@3.2.1
+2022-06-16T15:28:53.486Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:28:53.489Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:28:53.491Z - info: Using extension docx@3.3.1
+2022-06-16T15:28:53.494Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:28:53.555Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:28:53.555Z - info: Using extension pptx@3.2.1
+2022-06-16T15:28:53.557Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:28:53.587Z - info: Using extension scripts@3.2.1
+2022-06-16T15:28:53.588Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:28:53.589Z - info: Using extension studio@3.6.0
+2022-06-16T15:28:53.680Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:28:53.699Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:28:53.700Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:28:53.701Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:28:53.703Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:28:53.703Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:28:53.703Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:28:53.703Z - info: Using fs provider for template store.
+2022-06-16T15:28:53.707Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:28:53.710Z - info: fs store is loading data
+2022-06-16T15:28:53.719Z - info: fs store is initialized successfully
+2022-06-16T15:28:53.730Z - info: Creating default express app.
+2022-06-16T15:28:53.754Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:28:53.757Z - info: Verifying license key free
+2022-06-16T15:28:53.758Z - info: Using free license
+2022-06-16T15:28:53.762Z - info: Initializing worker threads
+2022-06-16T15:28:53.956Z - info: 2 worker threads initialized in 194ms
+2022-06-16T15:28:53.957Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:28:53.957Z - info: reporter initialized
+2022-06-16T15:29:29.634Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/main/validateEntityName.js:26:11)
+    at Object.insert (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:86:7)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-06-16T15:30:59.433Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:30:59.436Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:30:59.440Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:30:59.444Z - info: Found 35 extension(s)
+2022-06-16T15:30:59.492Z - info: Using extension authentication@3.3.1
+2022-06-16T15:30:59.569Z - info: Using extension base@3.0.0
+2022-06-16T15:30:59.572Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:30:59.573Z - info: Using extension cli@3.2.1
+2022-06-16T15:30:59.575Z - info: Using extension components@3.2.1
+2022-06-16T15:30:59.576Z - info: Using extension data@3.0.1
+2022-06-16T15:30:59.577Z - info: Using extension express@3.4.1
+2022-06-16T15:30:59.684Z - info: Using extension freeze@3.0.1
+2022-06-16T15:30:59.685Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:30:59.730Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:30:59.732Z - info: Using extension import-export@3.1.2
+2022-06-16T15:30:59.737Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:30:59.738Z - info: Using extension licensing@3.0.2
+2022-06-16T15:30:59.748Z - info: Using extension localization@3.2.1
+2022-06-16T15:30:59.749Z - info: Using extension npm@3.1.2
+2022-06-16T15:30:59.751Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:30:59.753Z - info: Using extension reports@3.0.5
+2022-06-16T15:30:59.754Z - info: Using extension tags@3.1.0
+2022-06-16T15:30:59.755Z - info: Using extension text@3.0.0
+2022-06-16T15:30:59.756Z - info: Using extension version-control@3.1.1
+2022-06-16T15:30:59.761Z - info: Using extension assets@3.4.2
+2022-06-16T15:30:59.767Z - info: Using extension authorization@3.2.1
+2022-06-16T15:30:59.769Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:30:59.770Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:30:59.772Z - info: Using extension docx@3.3.1
+2022-06-16T15:30:59.773Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:30:59.807Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:30:59.807Z - info: Using extension pptx@3.2.1
+2022-06-16T15:30:59.808Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:30:59.827Z - info: Using extension scripts@3.2.1
+2022-06-16T15:30:59.827Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:30:59.828Z - info: Using extension studio@3.6.0
+2022-06-16T15:30:59.879Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:30:59.891Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:30:59.892Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:30:59.893Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:30:59.894Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:30:59.894Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:30:59.894Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:30:59.894Z - info: Using fs provider for template store.
+2022-06-16T15:30:59.899Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:30:59.901Z - info: fs store is loading data
+2022-06-16T15:30:59.909Z - info: fs store is initialized successfully
+2022-06-16T15:30:59.922Z - info: Creating default express app.
+2022-06-16T15:30:59.937Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:30:59.940Z - info: Verifying license key free
+2022-06-16T15:30:59.941Z - info: Using free license
+2022-06-16T15:30:59.946Z - info: Initializing worker threads
+2022-06-16T15:31:00.091Z - info: 2 worker threads initialized in 145ms
+2022-06-16T15:31:00.091Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:31:00.092Z - info: reporter initialized
+2022-06-16T15:33:59.449Z - info: Render request 1 queued for execution and waiting for availible worker rootId=kdb5ib5hdl6b0c3, id=kdb5ib5hdl6b0c3
+2022-06-16T15:33:59.535Z - info: Starting rendering request 1 (user: admin) rootId=kdb5ib5hdl6b0c3, id=kdb5ib5hdl6b0c3
+2022-06-16T15:33:59.536Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kdb5ib5hdl6b0c3, id=kdb5ib5hdl6b0c3
+2022-06-16T15:34:01.453Z - info: pdf-utils is starting pdf processing rootId=kdb5ib5hdl6b0c3, id=kdb5ib5hdl6b0c3
+2022-06-16T15:34:01.466Z - info: Starting rendering request 1 (user: admin) rootId=kdb5ib5hdl6b0c3, id=zrkdqiux2pym7y7
+2022-06-16T15:34:01.466Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kdb5ib5hdl6b0c3, id=zrkdqiux2pym7y7
+2022-06-16T15:34:01.756Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=kdb5ib5hdl6b0c3, id=zrkdqiux2pym7y7
+2022-06-16T15:34:01.757Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=kdb5ib5hdl6b0c3, id=zrkdqiux2pym7y7
+2022-06-16T15:34:01.842Z - info: Rendering request 1 finished in 2323 ms rootId=kdb5ib5hdl6b0c3, id=zrkdqiux2pym7y7
+2022-06-16T15:34:01.843Z - info: pdf-utils pdf processing was finished rootId=kdb5ib5hdl6b0c3, id=kdb5ib5hdl6b0c3
+2022-06-16T15:34:01.844Z - info: Rendering request 1 finished in 2394 ms rootId=kdb5ib5hdl6b0c3, id=kdb5ib5hdl6b0c3
+2022-06-16T15:40:37.154Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:40:37.156Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:40:37.161Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:40:37.167Z - info: Found 35 extension(s)
+2022-06-16T15:40:37.238Z - info: Using extension authentication@3.3.1
+2022-06-16T15:40:37.391Z - info: Using extension base@3.0.0
+2022-06-16T15:40:37.394Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:40:37.395Z - info: Using extension cli@3.2.1
+2022-06-16T15:40:37.397Z - info: Using extension components@3.2.1
+2022-06-16T15:40:37.399Z - info: Using extension data@3.0.1
+2022-06-16T15:40:37.400Z - info: Using extension express@3.4.1
+2022-06-16T15:40:37.599Z - info: Using extension freeze@3.0.1
+2022-06-16T15:40:37.601Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:40:37.693Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:40:37.694Z - info: Using extension import-export@3.1.2
+2022-06-16T15:40:37.704Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:40:37.704Z - info: Using extension licensing@3.0.2
+2022-06-16T15:40:37.723Z - info: Using extension localization@3.2.1
+2022-06-16T15:40:37.724Z - info: Using extension npm@3.1.2
+2022-06-16T15:40:37.726Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:40:37.728Z - info: Using extension reports@3.0.5
+2022-06-16T15:40:37.729Z - info: Using extension tags@3.1.0
+2022-06-16T15:40:37.731Z - info: Using extension text@3.0.0
+2022-06-16T15:40:37.732Z - info: Using extension version-control@3.1.1
+2022-06-16T15:40:37.740Z - info: Using extension assets@3.4.2
+2022-06-16T15:40:37.751Z - info: Using extension authorization@3.2.1
+2022-06-16T15:40:37.754Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:40:37.756Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:40:37.758Z - info: Using extension docx@3.3.1
+2022-06-16T15:40:37.760Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:40:37.817Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:40:37.817Z - info: Using extension pptx@3.2.1
+2022-06-16T15:40:37.819Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:40:37.850Z - info: Using extension scripts@3.2.1
+2022-06-16T15:40:37.851Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:40:37.852Z - info: Using extension studio@3.6.0
+2022-06-16T15:40:37.944Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:40:37.965Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:40:37.966Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:40:37.967Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:40:37.969Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:40:37.969Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:40:37.969Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:40:37.969Z - info: Using fs provider for template store.
+2022-06-16T15:40:37.974Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:40:37.976Z - info: fs store is loading data
+2022-06-16T15:40:37.985Z - info: fs store is initialized successfully
+2022-06-16T15:40:37.995Z - info: Creating default express app.
+2022-06-16T15:40:38.030Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:40:38.033Z - info: Verifying license key free
+2022-06-16T15:40:38.034Z - info: Using free license
+2022-06-16T15:40:38.038Z - info: Initializing worker threads
+2022-06-16T15:40:38.235Z - info: 2 worker threads initialized in 197ms
+2022-06-16T15:40:38.235Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:40:38.236Z - info: reporter initialized
+2022-06-16T15:40:40.386Z - info: Render request 1 queued for execution and waiting for availible worker rootId=ywrs0jxn2kyeb1q, id=ywrs0jxn2kyeb1q
+2022-06-16T15:40:40.462Z - info: Starting rendering request 1 (user: admin) rootId=ywrs0jxn2kyeb1q, id=ywrs0jxn2kyeb1q
+2022-06-16T15:40:40.462Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ywrs0jxn2kyeb1q, id=ywrs0jxn2kyeb1q
+2022-06-16T15:40:41.939Z - info: pdf-utils is starting pdf processing rootId=ywrs0jxn2kyeb1q, id=ywrs0jxn2kyeb1q
+2022-06-16T15:40:41.950Z - info: Starting rendering request 1 (user: admin) rootId=ywrs0jxn2kyeb1q, id=ngjm54lqn4q88br
+2022-06-16T15:40:41.950Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ywrs0jxn2kyeb1q, id=ngjm54lqn4q88br
+2022-06-16T15:40:42.141Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=ywrs0jxn2kyeb1q, id=ngjm54lqn4q88br
+2022-06-16T15:40:42.241Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=ywrs0jxn2kyeb1q, id=ngjm54lqn4q88br
+2022-06-16T15:40:42.328Z - info: Rendering request 1 finished in 1875 ms rootId=ywrs0jxn2kyeb1q, id=ngjm54lqn4q88br
+2022-06-16T15:40:42.328Z - info: pdf-utils pdf processing was finished rootId=ywrs0jxn2kyeb1q, id=ywrs0jxn2kyeb1q
+2022-06-16T15:40:42.329Z - info: Rendering request 1 finished in 1943 ms rootId=ywrs0jxn2kyeb1q, id=ywrs0jxn2kyeb1q
+2022-06-16T15:42:33.168Z - info: Render request 2 queued for execution and waiting for availible worker rootId=m9roc7cnph4r55o, id=m9roc7cnph4r55o
+2022-06-16T15:42:33.181Z - info: Starting rendering request 2 (user: admin) rootId=m9roc7cnph4r55o, id=m9roc7cnph4r55o
+2022-06-16T15:42:33.181Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=m9roc7cnph4r55o, id=m9roc7cnph4r55o
+2022-06-16T15:42:33.336Z - info: Rendering request 2 finished in 168 ms rootId=m9roc7cnph4r55o, id=m9roc7cnph4r55o
+2022-06-16T15:42:36.106Z - info: Render request 3 queued for execution and waiting for availible worker rootId=ej37oq1h9j3zjp3, id=ej37oq1h9j3zjp3
+2022-06-16T15:42:36.119Z - info: Starting rendering request 3 (user: admin) rootId=ej37oq1h9j3zjp3, id=ej37oq1h9j3zjp3
+2022-06-16T15:42:36.120Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ej37oq1h9j3zjp3, id=ej37oq1h9j3zjp3
+2022-06-16T15:42:36.522Z - info: pdf-utils is starting pdf processing rootId=ej37oq1h9j3zjp3, id=ej37oq1h9j3zjp3
+2022-06-16T15:42:36.532Z - info: Starting rendering request 3 (user: admin) rootId=ej37oq1h9j3zjp3, id=afyphaf20ueezx3
+2022-06-16T15:42:36.532Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ej37oq1h9j3zjp3, id=afyphaf20ueezx3
+2022-06-16T15:42:36.723Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=ej37oq1h9j3zjp3, id=afyphaf20ueezx3
+2022-06-16T15:42:36.822Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=ej37oq1h9j3zjp3, id=afyphaf20ueezx3
+2022-06-16T15:42:36.884Z - info: Rendering request 3 finished in 723 ms rootId=ej37oq1h9j3zjp3, id=afyphaf20ueezx3
+2022-06-16T15:42:36.885Z - info: pdf-utils pdf processing was finished rootId=ej37oq1h9j3zjp3, id=ej37oq1h9j3zjp3
+2022-06-16T15:42:36.885Z - info: Rendering request 3 finished in 779 ms rootId=ej37oq1h9j3zjp3, id=ej37oq1h9j3zjp3
+2022-06-16T15:42:40.372Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:42:40.374Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:42:40.379Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:42:40.382Z - info: Found 35 extension(s)
+2022-06-16T15:42:40.431Z - info: Using extension authentication@3.3.1
+2022-06-16T15:42:40.509Z - info: Using extension base@3.0.0
+2022-06-16T15:42:40.512Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:42:40.513Z - info: Using extension cli@3.2.1
+2022-06-16T15:42:40.514Z - info: Using extension components@3.2.1
+2022-06-16T15:42:40.515Z - info: Using extension data@3.0.1
+2022-06-16T15:42:40.516Z - info: Using extension express@3.4.1
+2022-06-16T15:42:40.625Z - info: Using extension freeze@3.0.1
+2022-06-16T15:42:40.626Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:42:40.676Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:42:40.677Z - info: Using extension import-export@3.1.2
+2022-06-16T15:42:40.683Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:42:40.684Z - info: Using extension licensing@3.0.2
+2022-06-16T15:42:40.695Z - info: Using extension localization@3.2.1
+2022-06-16T15:42:40.696Z - info: Using extension npm@3.1.2
+2022-06-16T15:42:40.698Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:42:40.699Z - info: Using extension reports@3.0.5
+2022-06-16T15:42:40.700Z - info: Using extension tags@3.1.0
+2022-06-16T15:42:40.701Z - info: Using extension text@3.0.0
+2022-06-16T15:42:40.702Z - info: Using extension version-control@3.1.1
+2022-06-16T15:42:40.708Z - info: Using extension assets@3.4.2
+2022-06-16T15:42:40.714Z - info: Using extension authorization@3.2.1
+2022-06-16T15:42:40.716Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:42:40.717Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:42:40.719Z - info: Using extension docx@3.3.1
+2022-06-16T15:42:40.721Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:42:40.758Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:42:40.759Z - info: Using extension pptx@3.2.1
+2022-06-16T15:42:40.760Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:42:40.781Z - info: Using extension scripts@3.2.1
+2022-06-16T15:42:40.781Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:42:40.782Z - info: Using extension studio@3.6.0
+2022-06-16T15:42:40.837Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:42:40.850Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:42:40.850Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:42:40.852Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:42:40.853Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:42:40.853Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:42:40.853Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:42:40.853Z - info: Using fs provider for template store.
+2022-06-16T15:42:40.859Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:42:40.861Z - info: fs store is loading data
+2022-06-16T15:42:40.870Z - info: fs store is initialized successfully
+2022-06-16T15:42:40.882Z - info: Creating default express app.
+2022-06-16T15:42:40.899Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:42:40.904Z - info: Verifying license key free
+2022-06-16T15:42:40.905Z - info: Using free license
+2022-06-16T15:42:40.909Z - info: Initializing worker threads
+2022-06-16T15:42:41.054Z - info: 2 worker threads initialized in 145ms
+2022-06-16T15:42:41.054Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:42:41.055Z - info: reporter initialized
+2022-06-16T15:42:43.464Z - info: Render request 1 queued for execution and waiting for availible worker rootId=5m8emkcdsvdlg8y, id=5m8emkcdsvdlg8y
+2022-06-16T15:42:43.517Z - info: Starting rendering request 1 (user: admin) rootId=5m8emkcdsvdlg8y, id=5m8emkcdsvdlg8y
+2022-06-16T15:42:43.517Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=5m8emkcdsvdlg8y, id=5m8emkcdsvdlg8y
+2022-06-16T15:42:44.781Z - info: pdf-utils is starting pdf processing rootId=5m8emkcdsvdlg8y, id=5m8emkcdsvdlg8y
+2022-06-16T15:42:44.798Z - info: Starting rendering request 1 (user: admin) rootId=5m8emkcdsvdlg8y, id=qvab43rsofy5rh2
+2022-06-16T15:42:44.798Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=5m8emkcdsvdlg8y, id=qvab43rsofy5rh2
+2022-06-16T15:42:44.982Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=5m8emkcdsvdlg8y, id=qvab43rsofy5rh2
+2022-06-16T15:42:45.084Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=5m8emkcdsvdlg8y, id=qvab43rsofy5rh2
+2022-06-16T15:42:45.165Z - info: Rendering request 1 finished in 1640 ms rootId=5m8emkcdsvdlg8y, id=qvab43rsofy5rh2
+2022-06-16T15:42:45.166Z - info: pdf-utils pdf processing was finished rootId=5m8emkcdsvdlg8y, id=5m8emkcdsvdlg8y
+2022-06-16T15:42:45.166Z - info: Rendering request 1 finished in 1702 ms rootId=5m8emkcdsvdlg8y, id=5m8emkcdsvdlg8y
+2022-06-16T15:42:58.640Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:42:58.642Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:42:58.646Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:42:58.650Z - info: Found 35 extension(s)
+2022-06-16T15:42:58.700Z - info: Using extension authentication@3.3.1
+2022-06-16T15:42:58.778Z - info: Using extension base@3.0.0
+2022-06-16T15:42:58.780Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:42:58.781Z - info: Using extension cli@3.2.1
+2022-06-16T15:42:58.783Z - info: Using extension components@3.2.1
+2022-06-16T15:42:58.783Z - info: Using extension data@3.0.1
+2022-06-16T15:42:58.784Z - info: Using extension express@3.4.1
+2022-06-16T15:42:58.889Z - info: Using extension freeze@3.0.1
+2022-06-16T15:42:58.890Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:42:58.934Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:42:58.935Z - info: Using extension import-export@3.1.2
+2022-06-16T15:42:58.941Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:42:58.942Z - info: Using extension licensing@3.0.2
+2022-06-16T15:42:58.952Z - info: Using extension localization@3.2.1
+2022-06-16T15:42:58.952Z - info: Using extension npm@3.1.2
+2022-06-16T15:42:58.955Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:42:58.956Z - info: Using extension reports@3.0.5
+2022-06-16T15:42:58.957Z - info: Using extension tags@3.1.0
+2022-06-16T15:42:58.958Z - info: Using extension text@3.0.0
+2022-06-16T15:42:58.959Z - info: Using extension version-control@3.1.1
+2022-06-16T15:42:58.964Z - info: Using extension assets@3.4.2
+2022-06-16T15:42:58.969Z - info: Using extension authorization@3.2.1
+2022-06-16T15:42:58.971Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:42:58.973Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:42:58.975Z - info: Using extension docx@3.3.1
+2022-06-16T15:42:58.976Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:42:59.014Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:42:59.015Z - info: Using extension pptx@3.2.1
+2022-06-16T15:42:59.016Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:42:59.038Z - info: Using extension scripts@3.2.1
+2022-06-16T15:42:59.039Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:42:59.039Z - info: Using extension studio@3.6.0
+2022-06-16T15:42:59.101Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:42:59.114Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:42:59.115Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:42:59.116Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:42:59.117Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:42:59.117Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:42:59.117Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:42:59.117Z - info: Using fs provider for template store.
+2022-06-16T15:42:59.122Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:42:59.125Z - info: fs store is loading data
+2022-06-16T15:42:59.135Z - info: fs store is initialized successfully
+2022-06-16T15:42:59.147Z - info: Creating default express app.
+2022-06-16T15:42:59.162Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:42:59.165Z - info: Verifying license key free
+2022-06-16T15:42:59.166Z - info: Using free license
+2022-06-16T15:42:59.170Z - info: Initializing worker threads
+2022-06-16T15:42:59.312Z - info: 2 worker threads initialized in 142ms
+2022-06-16T15:42:59.312Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:42:59.313Z - info: reporter initialized
+2022-06-16T15:42:59.531Z - info: Render request 1 queued for execution and waiting for availible worker rootId=57ag3oy98sng36b, id=57ag3oy98sng36b
+2022-06-16T15:42:59.586Z - info: Starting rendering request 1 (user: admin) rootId=57ag3oy98sng36b, id=57ag3oy98sng36b
+2022-06-16T15:42:59.587Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=57ag3oy98sng36b, id=57ag3oy98sng36b
+2022-06-16T15:43:00.855Z - info: pdf-utils is starting pdf processing rootId=57ag3oy98sng36b, id=57ag3oy98sng36b
+2022-06-16T15:43:00.865Z - info: Starting rendering request 1 (user: admin) rootId=57ag3oy98sng36b, id=b6u2f5chm5v7prh
+2022-06-16T15:43:00.865Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=57ag3oy98sng36b, id=b6u2f5chm5v7prh
+2022-06-16T15:43:01.057Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=57ag3oy98sng36b, id=b6u2f5chm5v7prh
+2022-06-16T15:43:01.157Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=57ag3oy98sng36b, id=b6u2f5chm5v7prh
+2022-06-16T15:43:01.230Z - info: Rendering request 1 finished in 1638 ms rootId=57ag3oy98sng36b, id=b6u2f5chm5v7prh
+2022-06-16T15:43:01.230Z - info: pdf-utils pdf processing was finished rootId=57ag3oy98sng36b, id=57ag3oy98sng36b
+2022-06-16T15:43:01.231Z - info: Rendering request 1 finished in 1699 ms rootId=57ag3oy98sng36b, id=57ag3oy98sng36b
+2022-06-16T15:44:01.818Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:44:01.820Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:44:01.825Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:44:01.829Z - info: Found 35 extension(s)
+2022-06-16T15:44:01.876Z - info: Using extension authentication@3.3.1
+2022-06-16T15:44:01.954Z - info: Using extension base@3.0.0
+2022-06-16T15:44:01.957Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:44:01.958Z - info: Using extension cli@3.2.1
+2022-06-16T15:44:01.960Z - info: Using extension components@3.2.1
+2022-06-16T15:44:01.960Z - info: Using extension data@3.0.1
+2022-06-16T15:44:01.961Z - info: Using extension express@3.4.1
+2022-06-16T15:44:02.068Z - info: Using extension freeze@3.0.1
+2022-06-16T15:44:02.070Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:44:02.121Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:44:02.123Z - info: Using extension import-export@3.1.2
+2022-06-16T15:44:02.129Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:44:02.129Z - info: Using extension licensing@3.0.2
+2022-06-16T15:44:02.143Z - info: Using extension localization@3.2.1
+2022-06-16T15:44:02.143Z - info: Using extension npm@3.1.2
+2022-06-16T15:44:02.146Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:44:02.147Z - info: Using extension reports@3.0.5
+2022-06-16T15:44:02.149Z - info: Using extension tags@3.1.0
+2022-06-16T15:44:02.150Z - info: Using extension text@3.0.0
+2022-06-16T15:44:02.151Z - info: Using extension version-control@3.1.1
+2022-06-16T15:44:02.157Z - info: Using extension assets@3.4.2
+2022-06-16T15:44:02.165Z - info: Using extension authorization@3.2.1
+2022-06-16T15:44:02.167Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:44:02.168Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:44:02.171Z - info: Using extension docx@3.3.1
+2022-06-16T15:44:02.172Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:44:02.211Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:44:02.211Z - info: Using extension pptx@3.2.1
+2022-06-16T15:44:02.212Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:44:02.234Z - info: Using extension scripts@3.2.1
+2022-06-16T15:44:02.234Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:44:02.234Z - info: Using extension studio@3.6.0
+2022-06-16T15:44:02.292Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:44:02.304Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:44:02.305Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:44:02.306Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:44:02.307Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:44:02.307Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:44:02.308Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:44:02.308Z - info: Using fs provider for template store.
+2022-06-16T15:44:02.313Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:44:02.315Z - info: fs store is loading data
+2022-06-16T15:44:02.324Z - info: fs store is initialized successfully
+2022-06-16T15:44:02.336Z - info: Creating default express app.
+2022-06-16T15:44:02.351Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:44:02.355Z - info: Verifying license key free
+2022-06-16T15:44:02.356Z - info: Using free license
+2022-06-16T15:44:02.359Z - info: Initializing worker threads
+2022-06-16T15:44:02.501Z - info: 2 worker threads initialized in 142ms
+2022-06-16T15:44:02.502Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:44:02.502Z - info: reporter initialized
+2022-06-16T15:44:02.948Z - info: Render request 1 queued for execution and waiting for availible worker rootId=54bzkj9uirv721k, id=54bzkj9uirv721k
+2022-06-16T15:44:02.979Z - info: Starting rendering request 1 (user: admin) rootId=54bzkj9uirv721k, id=54bzkj9uirv721k
+2022-06-16T15:44:02.980Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=54bzkj9uirv721k, id=54bzkj9uirv721k
+2022-06-16T15:44:04.284Z - info: pdf-utils is starting pdf processing rootId=54bzkj9uirv721k, id=54bzkj9uirv721k
+2022-06-16T15:44:04.298Z - info: Starting rendering request 1 (user: admin) rootId=54bzkj9uirv721k, id=vs4hh5jmdsewue5
+2022-06-16T15:44:04.298Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=54bzkj9uirv721k, id=vs4hh5jmdsewue5
+2022-06-16T15:44:04.485Z - warn: Page request failed: GET (image) http://192.168.1.168:6000/api/v1/qr?text=%7B%22type%22:%22invoice%22,%22value%22:%22SV20070015%22%7D, failure: net::ERR_UNSAFE_PORT rootId=54bzkj9uirv721k, id=vs4hh5jmdsewue5
+2022-06-16T15:44:04.629Z - info: Rendering request 1 finished in 1625 ms rootId=54bzkj9uirv721k, id=vs4hh5jmdsewue5
+2022-06-16T15:44:04.629Z - info: pdf-utils pdf processing was finished rootId=54bzkj9uirv721k, id=54bzkj9uirv721k
+2022-06-16T15:44:04.630Z - info: Rendering request 1 finished in 1680 ms rootId=54bzkj9uirv721k, id=54bzkj9uirv721k
+2022-06-16T15:53:50.080Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:53:50.083Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:53:50.088Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:53:50.093Z - info: Found 35 extension(s)
+2022-06-16T15:53:50.142Z - info: Using extension authentication@3.3.1
+2022-06-16T15:53:50.222Z - info: Using extension base@3.0.0
+2022-06-16T15:53:50.225Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:53:50.226Z - info: Using extension cli@3.2.1
+2022-06-16T15:53:50.227Z - info: Using extension components@3.2.1
+2022-06-16T15:53:50.228Z - info: Using extension data@3.0.1
+2022-06-16T15:53:50.229Z - info: Using extension express@3.4.1
+2022-06-16T15:53:50.335Z - info: Using extension freeze@3.0.1
+2022-06-16T15:53:50.336Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:53:50.384Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:53:50.386Z - info: Using extension import-export@3.1.2
+2022-06-16T15:53:50.391Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:53:50.392Z - info: Using extension licensing@3.0.2
+2022-06-16T15:53:50.403Z - info: Using extension localization@3.2.1
+2022-06-16T15:53:50.404Z - info: Using extension npm@3.1.2
+2022-06-16T15:53:50.406Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:53:50.407Z - info: Using extension reports@3.0.5
+2022-06-16T15:53:50.409Z - info: Using extension tags@3.1.0
+2022-06-16T15:53:50.410Z - info: Using extension text@3.0.0
+2022-06-16T15:53:50.410Z - info: Using extension version-control@3.1.1
+2022-06-16T15:53:50.417Z - info: Using extension assets@3.4.2
+2022-06-16T15:53:50.423Z - info: Using extension authorization@3.2.1
+2022-06-16T15:53:50.425Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:53:50.426Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:53:50.428Z - info: Using extension docx@3.3.1
+2022-06-16T15:53:50.430Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:53:50.467Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:53:50.468Z - info: Using extension pptx@3.2.1
+2022-06-16T15:53:50.469Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:53:50.489Z - info: Using extension scripts@3.2.1
+2022-06-16T15:53:50.490Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:53:50.490Z - info: Using extension studio@3.6.0
+2022-06-16T15:53:50.550Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:53:50.562Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:53:50.563Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:53:50.564Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:53:50.565Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:53:50.565Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:53:50.565Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:53:50.565Z - info: Using fs provider for template store.
+2022-06-16T15:53:50.570Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:53:50.573Z - info: fs store is loading data
+2022-06-16T15:53:50.582Z - info: fs store is initialized successfully
+2022-06-16T15:53:50.594Z - info: Creating default express app.
+2022-06-16T15:53:50.608Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:53:50.612Z - info: Verifying license key free
+2022-06-16T15:53:50.613Z - info: Using free license
+2022-06-16T15:53:50.617Z - info: Initializing worker threads
+2022-06-16T15:53:50.763Z - info: 2 worker threads initialized in 146ms
+2022-06-16T15:53:50.764Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:53:50.764Z - info: reporter initialized
+2022-06-16T15:53:50.984Z - info: Render request 1 queued for execution and waiting for availible worker rootId=gr8pv2pq337cfam, id=gr8pv2pq337cfam
+2022-06-16T15:53:51.045Z - info: Starting rendering request 1 (user: admin) rootId=gr8pv2pq337cfam, id=gr8pv2pq337cfam
+2022-06-16T15:53:51.046Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gr8pv2pq337cfam, id=gr8pv2pq337cfam
+2022-06-16T15:53:51.822Z - info: Rendering request 1 finished in 839 ms rootId=gr8pv2pq337cfam, id=gr8pv2pq337cfam
+2022-06-16T15:53:54.388Z - info: Render request 2 queued for execution and waiting for availible worker rootId=gprwuprabzfwp80, id=gprwuprabzfwp80
+2022-06-16T15:53:54.402Z - info: Starting rendering request 2 (user: admin) rootId=gprwuprabzfwp80, id=gprwuprabzfwp80
+2022-06-16T15:53:54.402Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gprwuprabzfwp80, id=gprwuprabzfwp80
+2022-06-16T15:53:55.095Z - info: pdf-utils is starting pdf processing rootId=gprwuprabzfwp80, id=gprwuprabzfwp80
+2022-06-16T15:53:55.106Z - info: Starting rendering request 2 (user: admin) rootId=gprwuprabzfwp80, id=0b9by8hqkb0btwo
+2022-06-16T15:53:55.106Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gprwuprabzfwp80, id=0b9by8hqkb0btwo
+2022-06-16T15:53:56.392Z - info: Rendering request 2 finished in 1942 ms rootId=gprwuprabzfwp80, id=0b9by8hqkb0btwo
+2022-06-16T15:53:56.392Z - info: pdf-utils pdf processing was finished rootId=gprwuprabzfwp80, id=gprwuprabzfwp80
+2022-06-16T15:53:56.393Z - info: Rendering request 2 finished in 2004 ms rootId=gprwuprabzfwp80, id=gprwuprabzfwp80
+2022-06-16T15:54:28.039Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:54:28.041Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:54:28.046Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:54:28.049Z - info: Found 35 extension(s)
+2022-06-16T15:54:28.100Z - info: Using extension authentication@3.3.1
+2022-06-16T15:54:28.176Z - info: Using extension base@3.0.0
+2022-06-16T15:54:28.179Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:54:28.180Z - info: Using extension cli@3.2.1
+2022-06-16T15:54:28.181Z - info: Using extension components@3.2.1
+2022-06-16T15:54:28.182Z - info: Using extension data@3.0.1
+2022-06-16T15:54:28.182Z - info: Using extension express@3.4.1
+2022-06-16T15:54:28.287Z - info: Using extension freeze@3.0.1
+2022-06-16T15:54:28.288Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:54:28.333Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:54:28.334Z - info: Using extension import-export@3.1.2
+2022-06-16T15:54:28.339Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:54:28.339Z - info: Using extension licensing@3.0.2
+2022-06-16T15:54:28.349Z - info: Using extension localization@3.2.1
+2022-06-16T15:54:28.350Z - info: Using extension npm@3.1.2
+2022-06-16T15:54:28.352Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:54:28.353Z - info: Using extension reports@3.0.5
+2022-06-16T15:54:28.354Z - info: Using extension tags@3.1.0
+2022-06-16T15:54:28.355Z - info: Using extension text@3.0.0
+2022-06-16T15:54:28.355Z - info: Using extension version-control@3.1.1
+2022-06-16T15:54:28.361Z - info: Using extension assets@3.4.2
+2022-06-16T15:54:28.366Z - info: Using extension authorization@3.2.1
+2022-06-16T15:54:28.368Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:54:28.369Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:54:28.371Z - info: Using extension docx@3.3.1
+2022-06-16T15:54:28.373Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:54:28.404Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:54:28.404Z - info: Using extension pptx@3.2.1
+2022-06-16T15:54:28.406Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:54:28.427Z - info: Using extension scripts@3.2.1
+2022-06-16T15:54:28.428Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:54:28.428Z - info: Using extension studio@3.6.0
+2022-06-16T15:54:28.488Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:54:28.500Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:54:28.501Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:54:28.502Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:54:28.503Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:54:28.503Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:54:28.503Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:54:28.504Z - info: Using fs provider for template store.
+2022-06-16T15:54:28.509Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:54:28.511Z - info: fs store is loading data
+2022-06-16T15:54:28.521Z - info: fs store is initialized successfully
+2022-06-16T15:54:28.533Z - info: Creating default express app.
+2022-06-16T15:54:28.548Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:54:28.551Z - info: Verifying license key free
+2022-06-16T15:54:28.552Z - info: Using free license
+2022-06-16T15:54:28.557Z - info: Initializing worker threads
+2022-06-16T15:54:28.700Z - info: 2 worker threads initialized in 143ms
+2022-06-16T15:54:28.700Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:54:28.701Z - info: reporter initialized
+2022-06-16T15:54:28.991Z - info: Render request 1 queued for execution and waiting for availible worker rootId=tsy0sqf8nue8lzw, id=tsy0sqf8nue8lzw
+2022-06-16T15:54:29.050Z - info: Starting rendering request 1 (user: admin) rootId=tsy0sqf8nue8lzw, id=tsy0sqf8nue8lzw
+2022-06-16T15:54:29.051Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tsy0sqf8nue8lzw, id=tsy0sqf8nue8lzw
+2022-06-16T15:54:30.320Z - info: pdf-utils is starting pdf processing rootId=tsy0sqf8nue8lzw, id=tsy0sqf8nue8lzw
+2022-06-16T15:54:30.331Z - info: Starting rendering request 1 (user: admin) rootId=tsy0sqf8nue8lzw, id=pqxo248g7z0z2jn
+2022-06-16T15:54:30.332Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tsy0sqf8nue8lzw, id=pqxo248g7z0z2jn
+2022-06-16T15:54:31.804Z - info: Rendering request 1 finished in 2755 ms rootId=tsy0sqf8nue8lzw, id=pqxo248g7z0z2jn
+2022-06-16T15:54:31.805Z - info: pdf-utils pdf processing was finished rootId=tsy0sqf8nue8lzw, id=tsy0sqf8nue8lzw
+2022-06-16T15:54:31.805Z - info: Rendering request 1 finished in 2815 ms rootId=tsy0sqf8nue8lzw, id=tsy0sqf8nue8lzw
+2022-06-16T15:54:58.546Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:54:58.548Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:54:58.553Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:54:58.557Z - info: Found 35 extension(s)
+2022-06-16T15:54:58.603Z - info: Using extension authentication@3.3.1
+2022-06-16T15:54:58.696Z - info: Using extension base@3.0.0
+2022-06-16T15:54:58.699Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:54:58.700Z - info: Using extension cli@3.2.1
+2022-06-16T15:54:58.702Z - info: Using extension components@3.2.1
+2022-06-16T15:54:58.703Z - info: Using extension data@3.0.1
+2022-06-16T15:54:58.704Z - info: Using extension express@3.4.1
+2022-06-16T15:54:58.828Z - info: Using extension freeze@3.0.1
+2022-06-16T15:54:58.829Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:54:58.880Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:54:58.881Z - info: Using extension import-export@3.1.2
+2022-06-16T15:54:58.886Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:54:58.887Z - info: Using extension licensing@3.0.2
+2022-06-16T15:54:58.898Z - info: Using extension localization@3.2.1
+2022-06-16T15:54:58.898Z - info: Using extension npm@3.1.2
+2022-06-16T15:54:58.900Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:54:58.902Z - info: Using extension reports@3.0.5
+2022-06-16T15:54:58.903Z - info: Using extension tags@3.1.0
+2022-06-16T15:54:58.904Z - info: Using extension text@3.0.0
+2022-06-16T15:54:58.905Z - info: Using extension version-control@3.1.1
+2022-06-16T15:54:58.910Z - info: Using extension assets@3.4.2
+2022-06-16T15:54:58.916Z - info: Using extension authorization@3.2.1
+2022-06-16T15:54:58.918Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:54:58.919Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:54:58.921Z - info: Using extension docx@3.3.1
+2022-06-16T15:54:58.923Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:54:58.962Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:54:58.963Z - info: Using extension pptx@3.2.1
+2022-06-16T15:54:58.964Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:54:58.984Z - info: Using extension scripts@3.2.1
+2022-06-16T15:54:58.985Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:54:58.985Z - info: Using extension studio@3.6.0
+2022-06-16T15:54:59.036Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:54:59.047Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:54:59.047Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:54:59.048Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:54:59.049Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:54:59.050Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:54:59.050Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:54:59.050Z - info: Using fs provider for template store.
+2022-06-16T15:54:59.054Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:54:59.057Z - info: fs store is loading data
+2022-06-16T15:54:59.067Z - info: fs store is initialized successfully
+2022-06-16T15:54:59.077Z - info: Creating default express app.
+2022-06-16T15:54:59.090Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:54:59.094Z - info: Verifying license key free
+2022-06-16T15:54:59.095Z - info: Using free license
+2022-06-16T15:54:59.099Z - info: Initializing worker threads
+2022-06-16T15:54:59.257Z - info: 2 worker threads initialized in 158ms
+2022-06-16T15:54:59.257Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:54:59.258Z - info: reporter initialized
+2022-06-16T15:54:59.261Z - info: Render request 1 queued for execution and waiting for availible worker rootId=t19u8rtcw1f61p0, id=t19u8rtcw1f61p0
+2022-06-16T15:54:59.317Z - info: Starting rendering request 1 (user: admin) rootId=t19u8rtcw1f61p0, id=t19u8rtcw1f61p0
+2022-06-16T15:54:59.317Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=t19u8rtcw1f61p0, id=t19u8rtcw1f61p0
+2022-06-16T15:55:00.618Z - info: pdf-utils is starting pdf processing rootId=t19u8rtcw1f61p0, id=t19u8rtcw1f61p0
+2022-06-16T15:55:00.631Z - info: Starting rendering request 1 (user: admin) rootId=t19u8rtcw1f61p0, id=t5ktr8q4at7k8nt
+2022-06-16T15:55:00.631Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=t19u8rtcw1f61p0, id=t5ktr8q4at7k8nt
+2022-06-16T15:55:01.877Z - info: Rendering request 1 finished in 2554 ms rootId=t19u8rtcw1f61p0, id=t5ktr8q4at7k8nt
+2022-06-16T15:55:01.877Z - info: pdf-utils pdf processing was finished rootId=t19u8rtcw1f61p0, id=t19u8rtcw1f61p0
+2022-06-16T15:55:01.878Z - info: Rendering request 1 finished in 2616 ms rootId=t19u8rtcw1f61p0, id=t19u8rtcw1f61p0
+2022-06-16T15:55:48.188Z - info: Render request 2 queued for execution and waiting for availible worker rootId=artajjy5yy7p6la, id=artajjy5yy7p6la
+2022-06-16T15:55:48.193Z - error: Report render failed: Unexpected string in JSON at position 323 SyntaxError: Unexpected string in JSON at position 323
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/request.js:60:17)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/request.js:36:23)
+    at WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:112:21)
+    at WorkerReporter.render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:128:17)
+    at /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:174:12)
+    at Object.execute (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/workerHandler.js:52:23)
+    at /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:93:41
+    at Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:25) rootId=artajjy5yy7p6la, id=artajjy5yy7p6la
+2022-06-16T15:56:05.577Z - info: Render request 3 queued for execution and waiting for availible worker rootId=45v47hr3lplao7g, id=45v47hr3lplao7g
+2022-06-16T15:56:05.590Z - info: Starting rendering request 3 (user: admin) rootId=45v47hr3lplao7g, id=45v47hr3lplao7g
+2022-06-16T15:56:05.590Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=45v47hr3lplao7g, id=45v47hr3lplao7g
+2022-06-16T15:56:06.006Z - info: pdf-utils is starting pdf processing rootId=45v47hr3lplao7g, id=45v47hr3lplao7g
+2022-06-16T15:56:06.015Z - info: Starting rendering request 3 (user: admin) rootId=45v47hr3lplao7g, id=fxge32cbo4d85jg
+2022-06-16T15:56:06.016Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=45v47hr3lplao7g, id=fxge32cbo4d85jg
+2022-06-16T15:56:06.515Z - info: Rendering request 3 finished in 888 ms rootId=45v47hr3lplao7g, id=fxge32cbo4d85jg
+2022-06-16T15:56:06.516Z - info: pdf-utils pdf processing was finished rootId=45v47hr3lplao7g, id=45v47hr3lplao7g
+2022-06-16T15:56:06.516Z - info: Rendering request 3 finished in 938 ms rootId=45v47hr3lplao7g, id=45v47hr3lplao7g
+2022-06-16T15:56:17.239Z - info: Render request 4 queued for execution and waiting for availible worker rootId=1lfjmlrbm2rd5jn, id=1lfjmlrbm2rd5jn
+2022-06-16T15:56:17.252Z - info: Starting rendering request 4 (user: admin) rootId=1lfjmlrbm2rd5jn, id=1lfjmlrbm2rd5jn
+2022-06-16T15:56:17.252Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1lfjmlrbm2rd5jn, id=1lfjmlrbm2rd5jn
+2022-06-16T15:56:17.637Z - info: pdf-utils is starting pdf processing rootId=1lfjmlrbm2rd5jn, id=1lfjmlrbm2rd5jn
+2022-06-16T15:56:17.647Z - info: Starting rendering request 4 (user: admin) rootId=1lfjmlrbm2rd5jn, id=p7vulz428j63z28
+2022-06-16T15:56:17.647Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1lfjmlrbm2rd5jn, id=p7vulz428j63z28
+2022-06-16T15:56:18.186Z - info: Rendering request 4 finished in 898 ms rootId=1lfjmlrbm2rd5jn, id=p7vulz428j63z28
+2022-06-16T15:56:18.187Z - info: pdf-utils pdf processing was finished rootId=1lfjmlrbm2rd5jn, id=1lfjmlrbm2rd5jn
+2022-06-16T15:56:18.187Z - info: Rendering request 4 finished in 946 ms rootId=1lfjmlrbm2rd5jn, id=1lfjmlrbm2rd5jn
+2022-06-16T15:56:56.892Z - info: Render request 5 queued for execution and waiting for availible worker rootId=df5f3hq46pke3vr, id=df5f3hq46pke3vr
+2022-06-16T15:56:56.904Z - info: Starting rendering request 5 (user: admin) rootId=df5f3hq46pke3vr, id=df5f3hq46pke3vr
+2022-06-16T15:56:56.904Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=df5f3hq46pke3vr, id=df5f3hq46pke3vr
+2022-06-16T15:56:57.286Z - info: pdf-utils is starting pdf processing rootId=df5f3hq46pke3vr, id=df5f3hq46pke3vr
+2022-06-16T15:56:57.286Z - info: Starting rendering request 5 (user: admin) rootId=df5f3hq46pke3vr, id=u97wh5d0id508id
+2022-06-16T15:56:57.286Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=df5f3hq46pke3vr, id=u97wh5d0id508id
+2022-06-16T15:56:57.819Z - info: Rendering request 5 finished in 880 ms rootId=df5f3hq46pke3vr, id=u97wh5d0id508id
+2022-06-16T15:56:57.820Z - info: pdf-utils pdf processing was finished rootId=df5f3hq46pke3vr, id=df5f3hq46pke3vr
+2022-06-16T15:56:57.820Z - info: Rendering request 5 finished in 927 ms rootId=df5f3hq46pke3vr, id=df5f3hq46pke3vr
+2022-06-16T15:57:22.668Z - info: Render request 6 queued for execution and waiting for availible worker rootId=yhbypq54y4zwvp6, id=yhbypq54y4zwvp6
+2022-06-16T15:57:22.681Z - info: Starting rendering request 6 (user: admin) rootId=yhbypq54y4zwvp6, id=yhbypq54y4zwvp6
+2022-06-16T15:57:22.681Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yhbypq54y4zwvp6, id=yhbypq54y4zwvp6
+2022-06-16T15:57:23.059Z - info: pdf-utils is starting pdf processing rootId=yhbypq54y4zwvp6, id=yhbypq54y4zwvp6
+2022-06-16T15:57:23.067Z - info: Starting rendering request 6 (user: admin) rootId=yhbypq54y4zwvp6, id=7cr36qs1d56xmt7
+2022-06-16T15:57:23.067Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=yhbypq54y4zwvp6, id=7cr36qs1d56xmt7
+2022-06-16T15:57:23.625Z - info: Rendering request 6 finished in 907 ms rootId=yhbypq54y4zwvp6, id=7cr36qs1d56xmt7
+2022-06-16T15:57:23.626Z - info: pdf-utils pdf processing was finished rootId=yhbypq54y4zwvp6, id=yhbypq54y4zwvp6
+2022-06-16T15:57:23.626Z - info: Rendering request 6 finished in 957 ms rootId=yhbypq54y4zwvp6, id=yhbypq54y4zwvp6
+2022-06-16T15:57:51.768Z - info: Render request 7 queued for execution and waiting for availible worker rootId=34azi114dr5i4pe, id=34azi114dr5i4pe
+2022-06-16T15:57:51.780Z - info: Starting rendering request 7 (user: admin) rootId=34azi114dr5i4pe, id=34azi114dr5i4pe
+2022-06-16T15:57:51.780Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=34azi114dr5i4pe, id=34azi114dr5i4pe
+2022-06-16T15:57:51.938Z - info: Rendering request 7 finished in 170 ms rootId=34azi114dr5i4pe, id=34azi114dr5i4pe
+2022-06-16T15:57:54.852Z - info: Render request 8 queued for execution and waiting for availible worker rootId=eqcq38mlh6iuw0u, id=eqcq38mlh6iuw0u
+2022-06-16T15:57:54.863Z - info: Starting rendering request 8 (user: admin) rootId=eqcq38mlh6iuw0u, id=eqcq38mlh6iuw0u
+2022-06-16T15:57:54.864Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=eqcq38mlh6iuw0u, id=eqcq38mlh6iuw0u
+2022-06-16T15:57:55.230Z - info: pdf-utils is starting pdf processing rootId=eqcq38mlh6iuw0u, id=eqcq38mlh6iuw0u
+2022-06-16T15:57:55.230Z - info: Starting rendering request 8 (user: admin) rootId=eqcq38mlh6iuw0u, id=o928bvjx0rl2udb
+2022-06-16T15:57:55.231Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=eqcq38mlh6iuw0u, id=o928bvjx0rl2udb
+2022-06-16T15:57:55.774Z - info: Rendering request 8 finished in 876 ms rootId=eqcq38mlh6iuw0u, id=o928bvjx0rl2udb
+2022-06-16T15:57:55.774Z - info: pdf-utils pdf processing was finished rootId=eqcq38mlh6iuw0u, id=eqcq38mlh6iuw0u
+2022-06-16T15:57:55.774Z - info: Rendering request 8 finished in 921 ms rootId=eqcq38mlh6iuw0u, id=eqcq38mlh6iuw0u
+2022-06-16T15:57:59.626Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:57:59.629Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:57:59.634Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:57:59.637Z - info: Found 35 extension(s)
+2022-06-16T15:57:59.685Z - info: Using extension authentication@3.3.1
+2022-06-16T15:57:59.764Z - info: Using extension base@3.0.0
+2022-06-16T15:57:59.766Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:57:59.767Z - info: Using extension cli@3.2.1
+2022-06-16T15:57:59.769Z - info: Using extension components@3.2.1
+2022-06-16T15:57:59.769Z - info: Using extension data@3.0.1
+2022-06-16T15:57:59.770Z - info: Using extension express@3.4.1
+2022-06-16T15:57:59.879Z - info: Using extension freeze@3.0.1
+2022-06-16T15:57:59.880Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:57:59.933Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:57:59.934Z - info: Using extension import-export@3.1.2
+2022-06-16T15:57:59.940Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:57:59.941Z - info: Using extension licensing@3.0.2
+2022-06-16T15:57:59.953Z - info: Using extension localization@3.2.1
+2022-06-16T15:57:59.953Z - info: Using extension npm@3.1.2
+2022-06-16T15:57:59.955Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:57:59.956Z - info: Using extension reports@3.0.5
+2022-06-16T15:57:59.958Z - info: Using extension tags@3.1.0
+2022-06-16T15:57:59.959Z - info: Using extension text@3.0.0
+2022-06-16T15:57:59.959Z - info: Using extension version-control@3.1.1
+2022-06-16T15:57:59.966Z - info: Using extension assets@3.4.2
+2022-06-16T15:57:59.972Z - info: Using extension authorization@3.2.1
+2022-06-16T15:57:59.974Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:57:59.975Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:57:59.978Z - info: Using extension docx@3.3.1
+2022-06-16T15:57:59.979Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:58:00.018Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:58:00.018Z - info: Using extension pptx@3.2.1
+2022-06-16T15:58:00.019Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:58:00.040Z - info: Using extension scripts@3.2.1
+2022-06-16T15:58:00.041Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:58:00.041Z - info: Using extension studio@3.6.0
+2022-06-16T15:58:00.097Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:58:00.108Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:58:00.109Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:58:00.110Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:58:00.111Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:58:00.111Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:58:00.111Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:58:00.111Z - info: Using fs provider for template store.
+2022-06-16T15:58:00.116Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:58:00.118Z - info: fs store is loading data
+2022-06-16T15:58:00.126Z - info: fs store is initialized successfully
+2022-06-16T15:58:00.138Z - info: Creating default express app.
+2022-06-16T15:58:00.153Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:58:00.156Z - info: Verifying license key free
+2022-06-16T15:58:00.157Z - info: Using free license
+2022-06-16T15:58:00.161Z - info: Initializing worker threads
+2022-06-16T15:58:00.296Z - info: 2 worker threads initialized in 135ms
+2022-06-16T15:58:00.297Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:58:00.298Z - info: reporter initialized
+2022-06-16T15:58:00.430Z - info: Render request 1 queued for execution and waiting for availible worker rootId=gmvrld8k56t3kf5, id=gmvrld8k56t3kf5
+2022-06-16T15:58:00.469Z - info: Starting rendering request 1 (user: admin) rootId=gmvrld8k56t3kf5, id=gmvrld8k56t3kf5
+2022-06-16T15:58:00.470Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gmvrld8k56t3kf5, id=gmvrld8k56t3kf5
+2022-06-16T15:58:01.769Z - info: pdf-utils is starting pdf processing rootId=gmvrld8k56t3kf5, id=gmvrld8k56t3kf5
+2022-06-16T15:58:01.783Z - info: Starting rendering request 1 (user: admin) rootId=gmvrld8k56t3kf5, id=q3761gr7e3rmtgi
+2022-06-16T15:58:01.783Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gmvrld8k56t3kf5, id=q3761gr7e3rmtgi
+2022-06-16T15:58:02.989Z - info: Rendering request 1 finished in 2502 ms rootId=gmvrld8k56t3kf5, id=q3761gr7e3rmtgi
+2022-06-16T15:58:02.989Z - info: pdf-utils pdf processing was finished rootId=gmvrld8k56t3kf5, id=gmvrld8k56t3kf5
+2022-06-16T15:58:02.990Z - info: Rendering request 1 finished in 2559 ms rootId=gmvrld8k56t3kf5, id=gmvrld8k56t3kf5
+2022-06-16T15:58:38.649Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T15:58:38.651Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:58:38.656Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T15:58:38.660Z - info: Found 35 extension(s)
+2022-06-16T15:58:38.713Z - info: Using extension authentication@3.3.1
+2022-06-16T15:58:38.804Z - info: Using extension base@3.0.0
+2022-06-16T15:58:38.807Z - info: Using extension child-templates@3.0.3
+2022-06-16T15:58:38.808Z - info: Using extension cli@3.2.1
+2022-06-16T15:58:38.810Z - info: Using extension components@3.2.1
+2022-06-16T15:58:38.811Z - info: Using extension data@3.0.1
+2022-06-16T15:58:38.811Z - info: Using extension express@3.4.1
+2022-06-16T15:58:38.931Z - info: Using extension freeze@3.0.1
+2022-06-16T15:58:38.932Z - info: Using extension fs-store@3.2.1
+2022-06-16T15:58:38.978Z - info: Using extension handlebars@3.1.0
+2022-06-16T15:58:38.979Z - info: Using extension import-export@3.1.2
+2022-06-16T15:58:38.985Z - info: Using extension jsrender@3.0.0
+2022-06-16T15:58:38.985Z - info: Using extension licensing@3.0.2
+2022-06-16T15:58:38.995Z - info: Using extension localization@3.2.1
+2022-06-16T15:58:38.996Z - info: Using extension npm@3.1.2
+2022-06-16T15:58:38.998Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T15:58:38.999Z - info: Using extension reports@3.0.5
+2022-06-16T15:58:39.000Z - info: Using extension tags@3.1.0
+2022-06-16T15:58:39.001Z - info: Using extension text@3.0.0
+2022-06-16T15:58:39.001Z - info: Using extension version-control@3.1.1
+2022-06-16T15:58:39.008Z - info: Using extension assets@3.4.2
+2022-06-16T15:58:39.015Z - info: Using extension authorization@3.2.1
+2022-06-16T15:58:39.017Z - info: Using extension browser-client@3.1.1
+2022-06-16T15:58:39.018Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T15:58:39.020Z - info: Using extension docx@3.3.1
+2022-06-16T15:58:39.022Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T15:58:39.059Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T15:58:39.059Z - info: Using extension pptx@3.2.1
+2022-06-16T15:58:39.060Z - info: Using extension scheduling@3.0.2
+2022-06-16T15:58:39.079Z - info: Using extension scripts@3.2.1
+2022-06-16T15:58:39.080Z - info: Using extension static-pdf@3.0.0
+2022-06-16T15:58:39.080Z - info: Using extension studio@3.6.0
+2022-06-16T15:58:39.132Z - info: Using extension xlsx@3.2.1
+2022-06-16T15:58:39.143Z - info: Using extension public-templates@3.0.0
+2022-06-16T15:58:39.144Z - info: Using extension sample-template@3.2.1
+2022-06-16T15:58:39.145Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T15:58:39.146Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T15:58:39.146Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T15:58:39.146Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T15:58:39.146Z - info: Using fs provider for template store.
+2022-06-16T15:58:39.151Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T15:58:39.154Z - info: fs store is loading data
+2022-06-16T15:58:39.163Z - info: fs store is initialized successfully
+2022-06-16T15:58:39.174Z - info: Creating default express app.
+2022-06-16T15:58:39.189Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T15:58:39.193Z - info: Verifying license key free
+2022-06-16T15:58:39.194Z - info: Using free license
+2022-06-16T15:58:39.198Z - info: Initializing worker threads
+2022-06-16T15:58:39.354Z - info: 2 worker threads initialized in 155ms
+2022-06-16T15:58:39.354Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T15:58:39.355Z - info: reporter initialized
+2022-06-16T15:58:39.358Z - info: Render request 1 queued for execution and waiting for availible worker rootId=lyzi52vbqowhupn, id=lyzi52vbqowhupn
+2022-06-16T15:58:39.414Z - info: Starting rendering request 1 (user: admin) rootId=lyzi52vbqowhupn, id=lyzi52vbqowhupn
+2022-06-16T15:58:39.414Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lyzi52vbqowhupn, id=lyzi52vbqowhupn
+2022-06-16T15:58:40.679Z - info: pdf-utils is starting pdf processing rootId=lyzi52vbqowhupn, id=lyzi52vbqowhupn
+2022-06-16T15:58:40.693Z - info: Starting rendering request 1 (user: admin) rootId=lyzi52vbqowhupn, id=2spmgivg48uidxs
+2022-06-16T15:58:40.693Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=lyzi52vbqowhupn, id=2spmgivg48uidxs
+2022-06-16T15:58:42.181Z - info: Rendering request 1 finished in 2760 ms rootId=lyzi52vbqowhupn, id=2spmgivg48uidxs
+2022-06-16T15:58:42.181Z - info: pdf-utils pdf processing was finished rootId=lyzi52vbqowhupn, id=lyzi52vbqowhupn
+2022-06-16T15:58:42.181Z - info: Rendering request 1 finished in 2823 ms rootId=lyzi52vbqowhupn, id=lyzi52vbqowhupn
+2022-06-16T16:04:31.392Z - info: Render request 2 queued for execution and waiting for availible worker rootId=rytifs9hfvetxa1, id=rytifs9hfvetxa1
+2022-06-16T16:04:31.405Z - info: Starting rendering request 2 (user: admin) rootId=rytifs9hfvetxa1, id=rytifs9hfvetxa1
+2022-06-16T16:04:31.405Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rytifs9hfvetxa1, id=rytifs9hfvetxa1
+2022-06-16T16:04:31.800Z - info: pdf-utils is starting pdf processing rootId=rytifs9hfvetxa1, id=rytifs9hfvetxa1
+2022-06-16T16:04:31.807Z - info: Starting rendering request 2 (user: admin) rootId=rytifs9hfvetxa1, id=7utl03titiknb3s
+2022-06-16T16:04:31.807Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rytifs9hfvetxa1, id=7utl03titiknb3s
+2022-06-16T16:04:33.504Z - info: Rendering request 2 finished in 2061 ms rootId=rytifs9hfvetxa1, id=7utl03titiknb3s
+2022-06-16T16:04:33.505Z - info: pdf-utils pdf processing was finished rootId=rytifs9hfvetxa1, id=rytifs9hfvetxa1
+2022-06-16T16:04:33.505Z - info: Rendering request 2 finished in 2113 ms rootId=rytifs9hfvetxa1, id=rytifs9hfvetxa1
+2022-06-16T16:07:41.787Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:07:41.789Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:07:41.794Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:07:41.801Z - info: Found 35 extension(s)
+2022-06-16T16:07:41.850Z - info: Using extension authentication@3.3.1
+2022-06-16T16:07:41.928Z - info: Using extension base@3.0.0
+2022-06-16T16:07:41.930Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:07:41.931Z - info: Using extension cli@3.2.1
+2022-06-16T16:07:41.932Z - info: Using extension components@3.2.1
+2022-06-16T16:07:41.933Z - info: Using extension data@3.0.1
+2022-06-16T16:07:41.934Z - info: Using extension express@3.4.1
+2022-06-16T16:07:42.041Z - info: Using extension freeze@3.0.1
+2022-06-16T16:07:42.042Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:07:42.085Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:07:42.087Z - info: Using extension import-export@3.1.2
+2022-06-16T16:07:42.091Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:07:42.092Z - info: Using extension licensing@3.0.2
+2022-06-16T16:07:42.102Z - info: Using extension localization@3.2.1
+2022-06-16T16:07:42.102Z - info: Using extension npm@3.1.2
+2022-06-16T16:07:42.104Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:07:42.105Z - info: Using extension reports@3.0.5
+2022-06-16T16:07:42.106Z - info: Using extension tags@3.1.0
+2022-06-16T16:07:42.107Z - info: Using extension text@3.0.0
+2022-06-16T16:07:42.108Z - info: Using extension version-control@3.1.1
+2022-06-16T16:07:42.114Z - info: Using extension assets@3.4.2
+2022-06-16T16:07:42.119Z - info: Using extension authorization@3.2.1
+2022-06-16T16:07:42.121Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:07:42.123Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:07:42.125Z - info: Using extension docx@3.3.1
+2022-06-16T16:07:42.126Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:07:42.160Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:07:42.160Z - info: Using extension pptx@3.2.1
+2022-06-16T16:07:42.161Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:07:42.180Z - info: Using extension scripts@3.2.1
+2022-06-16T16:07:42.180Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:07:42.181Z - info: Using extension studio@3.6.0
+2022-06-16T16:07:42.232Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:07:42.243Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:07:42.243Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:07:42.244Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:07:42.245Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:07:42.245Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:07:42.245Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:07:42.245Z - info: Using fs provider for template store.
+2022-06-16T16:07:42.250Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:07:42.252Z - info: fs store is loading data
+2022-06-16T16:07:42.260Z - info: fs store is initialized successfully
+2022-06-16T16:07:42.271Z - info: Creating default express app.
+2022-06-16T16:07:42.285Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:07:42.289Z - info: Verifying license key free
+2022-06-16T16:07:42.290Z - info: Using free license
+2022-06-16T16:07:42.293Z - info: Initializing worker threads
+2022-06-16T16:07:42.439Z - info: 2 worker threads initialized in 146ms
+2022-06-16T16:07:42.439Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:07:42.440Z - info: reporter initialized
+2022-06-16T16:12:13.295Z - info: Render request 1 queued for execution and waiting for availible worker rootId=y3izkajijuryndf, id=y3izkajijuryndf
+2022-06-16T16:12:13.316Z - info: Starting rendering request 1 (user: admin) rootId=y3izkajijuryndf, id=y3izkajijuryndf
+2022-06-16T16:12:13.316Z - warn: Error when processing render request 1 Unable to find specified template or user does not have permissions to read it: name or path Error: Unable to find specified template or user does not have permissions to read it: name or path
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at WorkerReporter.createError (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:47:12)
+    at AsyncFunction.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:31:22)
+    at ListenerCollection.fire (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+    at async beforeRender (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:25:5)
+    at async WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:146:7)
+    at async /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:19
+    at async Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:19) rootId=y3izkajijuryndf, id=y3izkajijuryndf
+2022-06-16T16:12:13.316Z - warn: Rendering request 1 finished with error in 21 ms rootId=y3izkajijuryndf, id=y3izkajijuryndf
+2022-06-16T16:12:13.318Z - warn: Error during processing request at http://localhost:8000/api/report
+2022-06-16T16:13:14.620Z - info: Render request 2 queued for execution and waiting for availible worker rootId=61s2a2l3q4unk82, id=61s2a2l3q4unk82
+2022-06-16T16:13:14.700Z - info: Starting rendering request 2 (user: admin) rootId=61s2a2l3q4unk82, id=61s2a2l3q4unk82
+2022-06-16T16:13:14.700Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=61s2a2l3q4unk82, id=61s2a2l3q4unk82
+2022-06-16T16:13:16.746Z - info: pdf-utils is starting pdf processing rootId=61s2a2l3q4unk82, id=61s2a2l3q4unk82
+2022-06-16T16:13:16.756Z - info: Starting rendering request 2 (user: admin) rootId=61s2a2l3q4unk82, id=88n98xyx1u7iqfj
+2022-06-16T16:13:16.756Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=61s2a2l3q4unk82, id=88n98xyx1u7iqfj
+2022-06-16T16:13:17.988Z - info: Rendering request 2 finished in 3299 ms rootId=61s2a2l3q4unk82, id=88n98xyx1u7iqfj
+2022-06-16T16:13:17.988Z - info: pdf-utils pdf processing was finished rootId=61s2a2l3q4unk82, id=61s2a2l3q4unk82
+2022-06-16T16:13:17.988Z - info: Rendering request 2 finished in 3368 ms rootId=61s2a2l3q4unk82, id=61s2a2l3q4unk82
+2022-06-16T16:13:27.670Z - info: Render request 3 queued for execution and waiting for availible worker rootId=77py817zw5nnzd3, id=77py817zw5nnzd3
+2022-06-16T16:13:27.674Z - info: Starting rendering request 3 (user: admin) rootId=77py817zw5nnzd3, id=77py817zw5nnzd3
+2022-06-16T16:13:27.674Z - warn: Error when processing render request 3 Unable to find specified template or user does not have permissions to read it: rkJTnK2ce Error: Unable to find specified template or user does not have permissions to read it: rkJTnK2ce
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at WorkerReporter.createError (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/reporter.js:47:12)
+    at AsyncFunction.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/templates.js:31:22)
+    at ListenerCollection.fire (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/listenerCollection.js:157:32)
+    at async beforeRender (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:25:5)
+    at async WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:146:7)
+    at async /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:19
+    at async Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:19) rootId=77py817zw5nnzd3, id=77py817zw5nnzd3
+2022-06-16T16:13:27.675Z - warn: Rendering request 3 finished with error in 5 ms rootId=77py817zw5nnzd3, id=77py817zw5nnzd3
+2022-06-16T16:13:27.675Z - warn: Error during processing request at http://localhost:8000/api/report
+2022-06-16T16:15:32.784Z - info: Render request 4 queued for execution and waiting for availible worker rootId=cbgqpfb023b1loe, id=cbgqpfb023b1loe
+2022-06-16T16:15:32.791Z - info: Starting rendering request 4 (user: admin) rootId=cbgqpfb023b1loe, id=cbgqpfb023b1loe
+2022-06-16T16:15:32.792Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cbgqpfb023b1loe, id=cbgqpfb023b1loe
+2022-06-16T16:15:33.217Z - info: pdf-utils is starting pdf processing rootId=cbgqpfb023b1loe, id=cbgqpfb023b1loe
+2022-06-16T16:15:33.226Z - info: Starting rendering request 4 (user: admin) rootId=cbgqpfb023b1loe, id=kki959x27alwadp
+2022-06-16T16:15:33.226Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=cbgqpfb023b1loe, id=kki959x27alwadp
+2022-06-16T16:15:33.781Z - info: Rendering request 4 finished in 942 ms rootId=cbgqpfb023b1loe, id=kki959x27alwadp
+2022-06-16T16:15:33.781Z - info: pdf-utils pdf processing was finished rootId=cbgqpfb023b1loe, id=cbgqpfb023b1loe
+2022-06-16T16:15:33.781Z - info: Rendering request 4 finished in 996 ms rootId=cbgqpfb023b1loe, id=cbgqpfb023b1loe
+2022-06-16T16:17:01.028Z - info: Render request 5 queued for execution and waiting for availible worker rootId=d06dhmk0u4grjum, id=d06dhmk0u4grjum
+2022-06-16T16:17:01.039Z - info: Starting rendering request 5 (user: admin) rootId=d06dhmk0u4grjum, id=d06dhmk0u4grjum
+2022-06-16T16:17:01.040Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=d06dhmk0u4grjum, id=d06dhmk0u4grjum
+2022-06-16T16:17:01.411Z - info: pdf-utils is starting pdf processing rootId=d06dhmk0u4grjum, id=d06dhmk0u4grjum
+2022-06-16T16:17:01.422Z - info: Starting rendering request 5 (user: admin) rootId=d06dhmk0u4grjum, id=3xnp73iyn5ptddo
+2022-06-16T16:17:01.422Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=d06dhmk0u4grjum, id=3xnp73iyn5ptddo
+2022-06-16T16:17:01.896Z - info: Rendering request 5 finished in 820 ms rootId=d06dhmk0u4grjum, id=3xnp73iyn5ptddo
+2022-06-16T16:17:01.896Z - info: pdf-utils pdf processing was finished rootId=d06dhmk0u4grjum, id=d06dhmk0u4grjum
+2022-06-16T16:17:01.896Z - info: Rendering request 5 finished in 867 ms rootId=d06dhmk0u4grjum, id=d06dhmk0u4grjum
+2022-06-16T16:18:12.392Z - info: Render request 6 queued for execution and waiting for availible worker rootId=mh9lbm42r3csgez, id=mh9lbm42r3csgez
+2022-06-16T16:18:12.408Z - info: Starting rendering request 6 (user: admin) rootId=mh9lbm42r3csgez, id=mh9lbm42r3csgez
+2022-06-16T16:18:12.408Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mh9lbm42r3csgez, id=mh9lbm42r3csgez
+2022-06-16T16:18:12.836Z - info: pdf-utils is starting pdf processing rootId=mh9lbm42r3csgez, id=mh9lbm42r3csgez
+2022-06-16T16:18:12.848Z - info: Starting rendering request 6 (user: admin) rootId=mh9lbm42r3csgez, id=ezv0hlgu60nezt0
+2022-06-16T16:18:12.848Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=mh9lbm42r3csgez, id=ezv0hlgu60nezt0
+2022-06-16T16:18:13.369Z - info: Rendering request 6 finished in 924 ms rootId=mh9lbm42r3csgez, id=ezv0hlgu60nezt0
+2022-06-16T16:18:13.370Z - info: pdf-utils pdf processing was finished rootId=mh9lbm42r3csgez, id=mh9lbm42r3csgez
+2022-06-16T16:18:13.370Z - info: Rendering request 6 finished in 977 ms rootId=mh9lbm42r3csgez, id=mh9lbm42r3csgez
+2022-06-16T16:18:22.421Z - info: Render request 7 queued for execution and waiting for availible worker rootId=gsyvlbm5b3r59ym, id=gsyvlbm5b3r59ym
+2022-06-16T16:18:22.433Z - info: Starting rendering request 7 (user: admin) rootId=gsyvlbm5b3r59ym, id=gsyvlbm5b3r59ym
+2022-06-16T16:18:22.433Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gsyvlbm5b3r59ym, id=gsyvlbm5b3r59ym
+2022-06-16T16:18:22.800Z - info: pdf-utils is starting pdf processing rootId=gsyvlbm5b3r59ym, id=gsyvlbm5b3r59ym
+2022-06-16T16:18:22.801Z - info: Starting rendering request 7 (user: admin) rootId=gsyvlbm5b3r59ym, id=22myscmfqe2ls36
+2022-06-16T16:18:22.801Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gsyvlbm5b3r59ym, id=22myscmfqe2ls36
+2022-06-16T16:18:23.292Z - info: Rendering request 7 finished in 825 ms rootId=gsyvlbm5b3r59ym, id=22myscmfqe2ls36
+2022-06-16T16:18:23.293Z - info: pdf-utils pdf processing was finished rootId=gsyvlbm5b3r59ym, id=gsyvlbm5b3r59ym
+2022-06-16T16:18:23.293Z - info: Rendering request 7 finished in 870 ms rootId=gsyvlbm5b3r59ym, id=gsyvlbm5b3r59ym
+2022-06-16T16:18:33.040Z - info: Render request 8 queued for execution and waiting for availible worker rootId=pzeffrjmlswyemw, id=pzeffrjmlswyemw
+2022-06-16T16:18:33.053Z - info: Starting rendering request 8 (user: admin) rootId=pzeffrjmlswyemw, id=pzeffrjmlswyemw
+2022-06-16T16:18:33.054Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pzeffrjmlswyemw, id=pzeffrjmlswyemw
+2022-06-16T16:18:33.397Z - info: pdf-utils is starting pdf processing rootId=pzeffrjmlswyemw, id=pzeffrjmlswyemw
+2022-06-16T16:18:33.416Z - info: Starting rendering request 8 (user: admin) rootId=pzeffrjmlswyemw, id=gluh3vca819c0as
+2022-06-16T16:18:33.416Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=pzeffrjmlswyemw, id=gluh3vca819c0as
+2022-06-16T16:18:33.853Z - info: Rendering request 8 finished in 775 ms rootId=pzeffrjmlswyemw, id=gluh3vca819c0as
+2022-06-16T16:18:33.853Z - info: pdf-utils pdf processing was finished rootId=pzeffrjmlswyemw, id=pzeffrjmlswyemw
+2022-06-16T16:18:33.854Z - info: Rendering request 8 finished in 813 ms rootId=pzeffrjmlswyemw, id=pzeffrjmlswyemw
+2022-06-16T16:18:34.660Z - info: Render request 9 queued for execution and waiting for availible worker rootId=0u0ntqtcf66j7q5, id=0u0ntqtcf66j7q5
+2022-06-16T16:18:34.674Z - info: Starting rendering request 9 (user: admin) rootId=0u0ntqtcf66j7q5, id=0u0ntqtcf66j7q5
+2022-06-16T16:18:34.674Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=0u0ntqtcf66j7q5, id=0u0ntqtcf66j7q5
+2022-06-16T16:18:35.026Z - info: pdf-utils is starting pdf processing rootId=0u0ntqtcf66j7q5, id=0u0ntqtcf66j7q5
+2022-06-16T16:18:35.044Z - info: Starting rendering request 9 (user: admin) rootId=0u0ntqtcf66j7q5, id=jxuav0blfnwio96
+2022-06-16T16:18:35.044Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=0u0ntqtcf66j7q5, id=jxuav0blfnwio96
+2022-06-16T16:18:35.532Z - info: Rendering request 9 finished in 828 ms rootId=0u0ntqtcf66j7q5, id=jxuav0blfnwio96
+2022-06-16T16:18:35.532Z - info: pdf-utils pdf processing was finished rootId=0u0ntqtcf66j7q5, id=0u0ntqtcf66j7q5
+2022-06-16T16:18:35.533Z - info: Rendering request 9 finished in 872 ms rootId=0u0ntqtcf66j7q5, id=0u0ntqtcf66j7q5
+2022-06-16T16:18:36.194Z - info: Render request 10 queued for execution and waiting for availible worker rootId=6f76adfw8oqzpwq, id=6f76adfw8oqzpwq
+2022-06-16T16:18:36.203Z - info: Starting rendering request 10 (user: admin) rootId=6f76adfw8oqzpwq, id=6f76adfw8oqzpwq
+2022-06-16T16:18:36.204Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6f76adfw8oqzpwq, id=6f76adfw8oqzpwq
+2022-06-16T16:18:36.555Z - info: pdf-utils is starting pdf processing rootId=6f76adfw8oqzpwq, id=6f76adfw8oqzpwq
+2022-06-16T16:18:36.563Z - info: Starting rendering request 10 (user: admin) rootId=6f76adfw8oqzpwq, id=lzneejz0erg9byc
+2022-06-16T16:18:36.563Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=6f76adfw8oqzpwq, id=lzneejz0erg9byc
+2022-06-16T16:18:37.107Z - info: Rendering request 10 finished in 873 ms rootId=6f76adfw8oqzpwq, id=lzneejz0erg9byc
+2022-06-16T16:18:37.107Z - info: pdf-utils pdf processing was finished rootId=6f76adfw8oqzpwq, id=6f76adfw8oqzpwq
+2022-06-16T16:18:37.108Z - info: Rendering request 10 finished in 913 ms rootId=6f76adfw8oqzpwq, id=6f76adfw8oqzpwq
+2022-06-16T16:19:21.142Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:19:21.145Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:19:21.150Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:19:21.158Z - info: Found 35 extension(s)
+2022-06-16T16:19:21.243Z - info: Using extension authentication@3.3.1
+2022-06-16T16:19:21.419Z - info: Using extension base@3.0.0
+2022-06-16T16:19:21.422Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:19:21.424Z - info: Using extension cli@3.2.1
+2022-06-16T16:19:21.426Z - info: Using extension components@3.2.1
+2022-06-16T16:19:21.427Z - info: Using extension data@3.0.1
+2022-06-16T16:19:21.429Z - info: Using extension express@3.4.1
+2022-06-16T16:19:21.646Z - info: Using extension freeze@3.0.1
+2022-06-16T16:19:21.647Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:19:21.744Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:19:21.745Z - info: Using extension import-export@3.1.2
+2022-06-16T16:19:21.756Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:19:21.757Z - info: Using extension licensing@3.0.2
+2022-06-16T16:19:21.778Z - info: Using extension localization@3.2.1
+2022-06-16T16:19:21.779Z - info: Using extension npm@3.1.2
+2022-06-16T16:19:21.783Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:19:21.784Z - info: Using extension reports@3.0.5
+2022-06-16T16:19:21.786Z - info: Using extension tags@3.1.0
+2022-06-16T16:19:21.787Z - info: Using extension text@3.0.0
+2022-06-16T16:19:21.788Z - info: Using extension version-control@3.1.1
+2022-06-16T16:19:21.799Z - info: Using extension assets@3.4.2
+2022-06-16T16:19:21.810Z - info: Using extension authorization@3.2.1
+2022-06-16T16:19:21.813Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:19:21.816Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:19:21.818Z - info: Using extension docx@3.3.1
+2022-06-16T16:19:21.819Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:19:21.887Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:19:21.888Z - info: Using extension pptx@3.2.1
+2022-06-16T16:19:21.889Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:19:21.923Z - info: Using extension scripts@3.2.1
+2022-06-16T16:19:21.924Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:19:21.925Z - info: Using extension studio@3.6.0
+2022-06-16T16:19:22.032Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:19:22.054Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:19:22.055Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:19:22.056Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:19:22.058Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:19:22.058Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:19:22.058Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:19:22.058Z - info: Using fs provider for template store.
+2022-06-16T16:19:22.063Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:19:22.065Z - info: fs store is loading data
+2022-06-16T16:19:22.078Z - info: fs store is initialized successfully
+2022-06-16T16:19:22.091Z - info: Creating default express app.
+2022-06-16T16:19:22.119Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:19:22.124Z - info: Verifying license key free
+2022-06-16T16:19:22.125Z - info: Using free license
+2022-06-16T16:19:22.130Z - info: Initializing worker threads
+2022-06-16T16:19:22.319Z - info: 2 worker threads initialized in 189ms
+2022-06-16T16:19:22.320Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:19:22.320Z - info: reporter initialized
+2022-06-16T16:19:24.409Z - info: Render request 1 queued for execution and waiting for availible worker rootId=7kx5u3sjfvjq4hf, id=7kx5u3sjfvjq4hf
+2022-06-16T16:19:24.488Z - info: Starting rendering request 1 (user: admin) rootId=7kx5u3sjfvjq4hf, id=7kx5u3sjfvjq4hf
+2022-06-16T16:19:24.489Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=7kx5u3sjfvjq4hf, id=7kx5u3sjfvjq4hf
+2022-06-16T16:19:25.385Z - info: Rendering request 1 finished in 976 ms rootId=7kx5u3sjfvjq4hf, id=7kx5u3sjfvjq4hf
+2022-06-16T16:19:25.706Z - info: Render request 2 queued for execution and waiting for availible worker rootId=q5cy046lvc283kw, id=q5cy046lvc283kw
+2022-06-16T16:19:25.722Z - info: Starting rendering request 2 (user: admin) rootId=q5cy046lvc283kw, id=q5cy046lvc283kw
+2022-06-16T16:19:25.722Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q5cy046lvc283kw, id=q5cy046lvc283kw
+2022-06-16T16:19:26.534Z - info: pdf-utils is starting pdf processing rootId=q5cy046lvc283kw, id=q5cy046lvc283kw
+2022-06-16T16:19:26.551Z - info: Starting rendering request 2 (user: admin) rootId=q5cy046lvc283kw, id=b6p6asja4poy5pg
+2022-06-16T16:19:26.552Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=q5cy046lvc283kw, id=b6p6asja4poy5pg
+2022-06-16T16:19:27.824Z - info: Rendering request 2 finished in 2056 ms rootId=q5cy046lvc283kw, id=b6p6asja4poy5pg
+2022-06-16T16:19:27.825Z - info: pdf-utils pdf processing was finished rootId=q5cy046lvc283kw, id=q5cy046lvc283kw
+2022-06-16T16:19:27.825Z - info: Rendering request 2 finished in 2118 ms rootId=q5cy046lvc283kw, id=q5cy046lvc283kw
+2022-06-16T16:21:00.505Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:21:00.507Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:21:00.513Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:21:00.517Z - info: Found 35 extension(s)
+2022-06-16T16:21:00.581Z - info: Using extension authentication@3.3.1
+2022-06-16T16:21:00.679Z - info: Using extension base@3.0.0
+2022-06-16T16:21:00.682Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:21:00.683Z - info: Using extension cli@3.2.1
+2022-06-16T16:21:00.685Z - info: Using extension components@3.2.1
+2022-06-16T16:21:00.686Z - info: Using extension data@3.0.1
+2022-06-16T16:21:00.686Z - info: Using extension express@3.4.1
+2022-06-16T16:21:00.810Z - info: Using extension freeze@3.0.1
+2022-06-16T16:21:00.812Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:21:00.868Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:21:00.869Z - info: Using extension import-export@3.1.2
+2022-06-16T16:21:00.875Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:21:00.875Z - info: Using extension licensing@3.0.2
+2022-06-16T16:21:00.887Z - info: Using extension localization@3.2.1
+2022-06-16T16:21:00.888Z - info: Using extension npm@3.1.2
+2022-06-16T16:21:00.890Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:21:00.891Z - info: Using extension reports@3.0.5
+2022-06-16T16:21:00.893Z - info: Using extension tags@3.1.0
+2022-06-16T16:21:00.894Z - info: Using extension text@3.0.0
+2022-06-16T16:21:00.895Z - info: Using extension version-control@3.1.1
+2022-06-16T16:21:00.901Z - info: Using extension assets@3.4.2
+2022-06-16T16:21:00.908Z - info: Using extension authorization@3.2.1
+2022-06-16T16:21:00.910Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:21:00.912Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:21:00.915Z - info: Using extension docx@3.3.1
+2022-06-16T16:21:00.916Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:21:00.955Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:21:00.956Z - info: Using extension pptx@3.2.1
+2022-06-16T16:21:00.957Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:21:00.980Z - info: Using extension scripts@3.2.1
+2022-06-16T16:21:00.980Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:21:00.981Z - info: Using extension studio@3.6.0
+2022-06-16T16:21:01.042Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:21:01.055Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:21:01.055Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:21:01.057Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:21:01.059Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:21:01.059Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:21:01.059Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:21:01.059Z - info: Using fs provider for template store.
+2022-06-16T16:21:01.066Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:21:01.069Z - info: fs store is loading data
+2022-06-16T16:21:01.080Z - info: fs store is initialized successfully
+2022-06-16T16:21:01.095Z - info: Creating default express app.
+2022-06-16T16:21:01.112Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:21:01.116Z - info: Verifying license key free
+2022-06-16T16:21:01.117Z - info: Using free license
+2022-06-16T16:21:01.121Z - info: Initializing worker threads
+2022-06-16T16:21:01.270Z - info: 2 worker threads initialized in 148ms
+2022-06-16T16:21:01.270Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:21:01.271Z - info: reporter initialized
+2022-06-16T16:21:03.230Z - info: Render request 1 queued for execution and waiting for availible worker rootId=1t0w39t5r0r2275, id=1t0w39t5r0r2275
+2022-06-16T16:21:03.297Z - info: Starting rendering request 1 (user: admin) rootId=1t0w39t5r0r2275, id=1t0w39t5r0r2275
+2022-06-16T16:21:03.298Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1t0w39t5r0r2275, id=1t0w39t5r0r2275
+2022-06-16T16:21:04.602Z - info: pdf-utils is starting pdf processing rootId=1t0w39t5r0r2275, id=1t0w39t5r0r2275
+2022-06-16T16:21:04.622Z - info: Starting rendering request 1 (user: admin) rootId=1t0w39t5r0r2275, id=pcmqbybopu4a3ak
+2022-06-16T16:21:04.622Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=1t0w39t5r0r2275, id=pcmqbybopu4a3ak
+2022-06-16T16:21:05.907Z - info: Rendering request 1 finished in 2616 ms rootId=1t0w39t5r0r2275, id=pcmqbybopu4a3ak
+2022-06-16T16:21:05.908Z - info: pdf-utils pdf processing was finished rootId=1t0w39t5r0r2275, id=1t0w39t5r0r2275
+2022-06-16T16:21:05.908Z - info: Rendering request 1 finished in 2678 ms rootId=1t0w39t5r0r2275, id=1t0w39t5r0r2275
+2022-06-16T16:22:18.262Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:22:18.265Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:22:18.273Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:22:18.277Z - info: Found 35 extension(s)
+2022-06-16T16:22:18.334Z - info: Using extension authentication@3.3.1
+2022-06-16T16:22:18.419Z - info: Using extension base@3.0.0
+2022-06-16T16:22:18.422Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:22:18.422Z - info: Using extension cli@3.2.1
+2022-06-16T16:22:18.424Z - info: Using extension components@3.2.1
+2022-06-16T16:22:18.425Z - info: Using extension data@3.0.1
+2022-06-16T16:22:18.425Z - info: Using extension express@3.4.1
+2022-06-16T16:22:18.557Z - info: Using extension freeze@3.0.1
+2022-06-16T16:22:18.559Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:22:18.609Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:22:18.610Z - info: Using extension import-export@3.1.2
+2022-06-16T16:22:18.616Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:22:18.617Z - info: Using extension licensing@3.0.2
+2022-06-16T16:22:18.630Z - info: Using extension localization@3.2.1
+2022-06-16T16:22:18.630Z - info: Using extension npm@3.1.2
+2022-06-16T16:22:18.637Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:22:18.639Z - info: Using extension reports@3.0.5
+2022-06-16T16:22:18.640Z - info: Using extension tags@3.1.0
+2022-06-16T16:22:18.642Z - info: Using extension text@3.0.0
+2022-06-16T16:22:18.643Z - info: Using extension version-control@3.1.1
+2022-06-16T16:22:18.650Z - info: Using extension assets@3.4.2
+2022-06-16T16:22:18.657Z - info: Using extension authorization@3.2.1
+2022-06-16T16:22:18.660Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:22:18.661Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:22:18.664Z - info: Using extension docx@3.3.1
+2022-06-16T16:22:18.665Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:22:18.705Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:22:18.705Z - info: Using extension pptx@3.2.1
+2022-06-16T16:22:18.706Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:22:18.729Z - info: Using extension scripts@3.2.1
+2022-06-16T16:22:18.729Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:22:18.729Z - info: Using extension studio@3.6.0
+2022-06-16T16:22:18.790Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:22:18.803Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:22:18.804Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:22:18.805Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:22:18.806Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:22:18.806Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:22:18.806Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:22:18.806Z - info: Using fs provider for template store.
+2022-06-16T16:22:18.812Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:22:18.816Z - info: fs store is loading data
+2022-06-16T16:22:18.828Z - info: fs store is initialized successfully
+2022-06-16T16:22:18.843Z - info: Creating default express app.
+2022-06-16T16:22:18.860Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:22:18.862Z - info: Verifying license key free
+2022-06-16T16:22:18.863Z - info: Using free license
+2022-06-16T16:22:18.870Z - info: Initializing worker threads
+2022-06-16T16:22:19.011Z - info: 2 worker threads initialized in 141ms
+2022-06-16T16:22:19.011Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:22:19.012Z - info: reporter initialized
+2022-06-16T16:22:19.868Z - info: Render request 1 queued for execution and waiting for availible worker rootId=gg7nhk4ewwkdxmp, id=gg7nhk4ewwkdxmp
+2022-06-16T16:22:19.895Z - info: Starting rendering request 1 (user: admin) rootId=gg7nhk4ewwkdxmp, id=gg7nhk4ewwkdxmp
+2022-06-16T16:22:19.896Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gg7nhk4ewwkdxmp, id=gg7nhk4ewwkdxmp
+2022-06-16T16:22:21.229Z - info: pdf-utils is starting pdf processing rootId=gg7nhk4ewwkdxmp, id=gg7nhk4ewwkdxmp
+2022-06-16T16:22:21.245Z - info: Starting rendering request 1 (user: admin) rootId=gg7nhk4ewwkdxmp, id=q6oit58yvvhll70
+2022-06-16T16:22:21.245Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=gg7nhk4ewwkdxmp, id=q6oit58yvvhll70
+2022-06-16T16:22:22.644Z - info: Rendering request 1 finished in 2717 ms rootId=gg7nhk4ewwkdxmp, id=q6oit58yvvhll70
+2022-06-16T16:22:22.644Z - info: pdf-utils pdf processing was finished rootId=gg7nhk4ewwkdxmp, id=gg7nhk4ewwkdxmp
+2022-06-16T16:22:22.645Z - info: Rendering request 1 finished in 2776 ms rootId=gg7nhk4ewwkdxmp, id=gg7nhk4ewwkdxmp
+2022-06-16T16:23:27.982Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:23:27.984Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:23:27.990Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:23:27.994Z - info: Found 35 extension(s)
+2022-06-16T16:23:28.051Z - info: Using extension authentication@3.3.1
+2022-06-16T16:23:28.145Z - info: Using extension base@3.0.0
+2022-06-16T16:23:28.149Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:23:28.150Z - info: Using extension cli@3.2.1
+2022-06-16T16:23:28.152Z - info: Using extension components@3.2.1
+2022-06-16T16:23:28.153Z - info: Using extension data@3.0.1
+2022-06-16T16:23:28.154Z - info: Using extension express@3.4.1
+2022-06-16T16:23:28.285Z - info: Using extension freeze@3.0.1
+2022-06-16T16:23:28.286Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:23:28.340Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:23:28.341Z - info: Using extension import-export@3.1.2
+2022-06-16T16:23:28.347Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:23:28.347Z - info: Using extension licensing@3.0.2
+2022-06-16T16:23:28.359Z - info: Using extension localization@3.2.1
+2022-06-16T16:23:28.359Z - info: Using extension npm@3.1.2
+2022-06-16T16:23:28.361Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:23:28.362Z - info: Using extension reports@3.0.5
+2022-06-16T16:23:28.364Z - info: Using extension tags@3.1.0
+2022-06-16T16:23:28.365Z - info: Using extension text@3.0.0
+2022-06-16T16:23:28.365Z - info: Using extension version-control@3.1.1
+2022-06-16T16:23:28.373Z - info: Using extension assets@3.4.2
+2022-06-16T16:23:28.379Z - info: Using extension authorization@3.2.1
+2022-06-16T16:23:28.381Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:23:28.383Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:23:28.385Z - info: Using extension docx@3.3.1
+2022-06-16T16:23:28.386Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:23:28.426Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:23:28.426Z - info: Using extension pptx@3.2.1
+2022-06-16T16:23:28.427Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:23:28.451Z - info: Using extension scripts@3.2.1
+2022-06-16T16:23:28.452Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:23:28.452Z - info: Using extension studio@3.6.0
+2022-06-16T16:23:28.514Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:23:28.528Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:23:28.528Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:23:28.530Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:23:28.531Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:23:28.531Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:23:28.531Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:23:28.531Z - info: Using fs provider for template store.
+2022-06-16T16:23:28.538Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:23:28.541Z - info: fs store is loading data
+2022-06-16T16:23:28.551Z - info: fs store is initialized successfully
+2022-06-16T16:23:28.565Z - info: Creating default express app.
+2022-06-16T16:23:28.581Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:23:28.585Z - info: Verifying license key free
+2022-06-16T16:23:28.586Z - info: Using free license
+2022-06-16T16:23:28.590Z - info: Initializing worker threads
+2022-06-16T16:23:28.742Z - info: 2 worker threads initialized in 152ms
+2022-06-16T16:23:28.743Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:23:28.743Z - info: reporter initialized
+2022-06-16T16:23:28.770Z - info: Render request 1 queued for execution and waiting for availible worker rootId=sr9jyywgx674mvx, id=sr9jyywgx674mvx
+2022-06-16T16:23:28.811Z - info: Starting rendering request 1 (user: admin) rootId=sr9jyywgx674mvx, id=sr9jyywgx674mvx
+2022-06-16T16:23:28.812Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sr9jyywgx674mvx, id=sr9jyywgx674mvx
+2022-06-16T16:23:30.149Z - info: pdf-utils is starting pdf processing rootId=sr9jyywgx674mvx, id=sr9jyywgx674mvx
+2022-06-16T16:23:30.163Z - info: Starting rendering request 1 (user: admin) rootId=sr9jyywgx674mvx, id=uc7gcupg9r6b7te
+2022-06-16T16:23:30.163Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=sr9jyywgx674mvx, id=uc7gcupg9r6b7te
+2022-06-16T16:23:31.347Z - info: Rendering request 1 finished in 2518 ms rootId=sr9jyywgx674mvx, id=uc7gcupg9r6b7te
+2022-06-16T16:23:31.348Z - info: pdf-utils pdf processing was finished rootId=sr9jyywgx674mvx, id=sr9jyywgx674mvx
+2022-06-16T16:23:31.348Z - info: Rendering request 1 finished in 2578 ms rootId=sr9jyywgx674mvx, id=sr9jyywgx674mvx
+2022-06-16T16:23:58.975Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:23:58.977Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:23:58.985Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:23:58.989Z - info: Found 35 extension(s)
+2022-06-16T16:23:59.044Z - info: Using extension authentication@3.3.1
+2022-06-16T16:23:59.135Z - info: Using extension base@3.0.0
+2022-06-16T16:23:59.138Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:23:59.139Z - info: Using extension cli@3.2.1
+2022-06-16T16:23:59.141Z - info: Using extension components@3.2.1
+2022-06-16T16:23:59.142Z - info: Using extension data@3.0.1
+2022-06-16T16:23:59.142Z - info: Using extension express@3.4.1
+2022-06-16T16:23:59.273Z - info: Using extension freeze@3.0.1
+2022-06-16T16:23:59.274Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:23:59.326Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:23:59.327Z - info: Using extension import-export@3.1.2
+2022-06-16T16:23:59.333Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:23:59.334Z - info: Using extension licensing@3.0.2
+2022-06-16T16:23:59.346Z - info: Using extension localization@3.2.1
+2022-06-16T16:23:59.346Z - info: Using extension npm@3.1.2
+2022-06-16T16:23:59.348Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:23:59.350Z - info: Using extension reports@3.0.5
+2022-06-16T16:23:59.351Z - info: Using extension tags@3.1.0
+2022-06-16T16:23:59.353Z - info: Using extension text@3.0.0
+2022-06-16T16:23:59.353Z - info: Using extension version-control@3.1.1
+2022-06-16T16:23:59.360Z - info: Using extension assets@3.4.2
+2022-06-16T16:23:59.366Z - info: Using extension authorization@3.2.1
+2022-06-16T16:23:59.368Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:23:59.370Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:23:59.372Z - info: Using extension docx@3.3.1
+2022-06-16T16:23:59.373Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:23:59.414Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:23:59.414Z - info: Using extension pptx@3.2.1
+2022-06-16T16:23:59.416Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:23:59.438Z - info: Using extension scripts@3.2.1
+2022-06-16T16:23:59.439Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:23:59.439Z - info: Using extension studio@3.6.0
+2022-06-16T16:23:59.498Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:23:59.510Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:23:59.511Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:23:59.512Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:23:59.513Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:23:59.513Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:23:59.513Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:23:59.513Z - info: Using fs provider for template store.
+2022-06-16T16:23:59.517Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:23:59.520Z - info: fs store is loading data
+2022-06-16T16:23:59.532Z - info: fs store is initialized successfully
+2022-06-16T16:23:59.546Z - info: Creating default express app.
+2022-06-16T16:23:59.564Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:23:59.571Z - info: Verifying license key free
+2022-06-16T16:23:59.573Z - info: Using free license
+2022-06-16T16:23:59.577Z - info: Initializing worker threads
+2022-06-16T16:23:59.742Z - info: 2 worker threads initialized in 166ms
+2022-06-16T16:23:59.742Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:23:59.743Z - info: reporter initialized
+2022-06-16T16:23:59.746Z - info: Render request 1 queued for execution and waiting for availible worker rootId=023tmloudvvq7j4, id=023tmloudvvq7j4
+2022-06-16T16:23:59.803Z - info: Starting rendering request 1 (user: admin) rootId=023tmloudvvq7j4, id=023tmloudvvq7j4
+2022-06-16T16:23:59.804Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=023tmloudvvq7j4, id=023tmloudvvq7j4
+2022-06-16T16:24:01.144Z - info: pdf-utils is starting pdf processing rootId=023tmloudvvq7j4, id=023tmloudvvq7j4
+2022-06-16T16:24:01.161Z - info: Starting rendering request 1 (user: admin) rootId=023tmloudvvq7j4, id=bgy7c7isgstxbp8
+2022-06-16T16:24:01.161Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=023tmloudvvq7j4, id=bgy7c7isgstxbp8
+2022-06-16T16:24:02.351Z - info: Rendering request 1 finished in 2546 ms rootId=023tmloudvvq7j4, id=bgy7c7isgstxbp8
+2022-06-16T16:24:02.352Z - info: pdf-utils pdf processing was finished rootId=023tmloudvvq7j4, id=023tmloudvvq7j4
+2022-06-16T16:24:02.352Z - info: Rendering request 1 finished in 2606 ms rootId=023tmloudvvq7j4, id=023tmloudvvq7j4
+2022-06-16T16:24:16.982Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-06-16T16:24:16.984Z - info: Searching for available extensions in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:24:16.990Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/silverhong/Desktop/Report_Server/
+2022-06-16T16:24:16.994Z - info: Found 35 extension(s)
+2022-06-16T16:24:17.058Z - info: Using extension authentication@3.3.1
+2022-06-16T16:24:17.149Z - info: Using extension base@3.0.0
+2022-06-16T16:24:17.152Z - info: Using extension child-templates@3.0.3
+2022-06-16T16:24:17.153Z - info: Using extension cli@3.2.1
+2022-06-16T16:24:17.154Z - info: Using extension components@3.2.1
+2022-06-16T16:24:17.155Z - info: Using extension data@3.0.1
+2022-06-16T16:24:17.156Z - info: Using extension express@3.4.1
+2022-06-16T16:24:17.274Z - info: Using extension freeze@3.0.1
+2022-06-16T16:24:17.275Z - info: Using extension fs-store@3.2.1
+2022-06-16T16:24:17.327Z - info: Using extension handlebars@3.1.0
+2022-06-16T16:24:17.328Z - info: Using extension import-export@3.1.2
+2022-06-16T16:24:17.334Z - info: Using extension jsrender@3.0.0
+2022-06-16T16:24:17.335Z - info: Using extension licensing@3.0.2
+2022-06-16T16:24:17.347Z - info: Using extension localization@3.2.1
+2022-06-16T16:24:17.348Z - info: Using extension npm@3.1.2
+2022-06-16T16:24:17.352Z - info: Using extension pdf-utils@3.4.1
+2022-06-16T16:24:17.354Z - info: Using extension reports@3.0.5
+2022-06-16T16:24:17.355Z - info: Using extension tags@3.1.0
+2022-06-16T16:24:17.357Z - info: Using extension text@3.0.0
+2022-06-16T16:24:17.357Z - info: Using extension version-control@3.1.1
+2022-06-16T16:24:17.364Z - info: Using extension assets@3.4.2
+2022-06-16T16:24:17.370Z - info: Using extension authorization@3.2.1
+2022-06-16T16:24:17.372Z - info: Using extension browser-client@3.1.1
+2022-06-16T16:24:17.373Z - info: Using extension chrome-pdf@3.1.2
+2022-06-16T16:24:17.376Z - info: Using extension docx@3.3.1
+2022-06-16T16:24:17.378Z - info: Using extension html-to-xlsx@3.2.2
+2022-06-16T16:24:17.418Z - info: html-to-xlsx detected chrome as available html engine
+2022-06-16T16:24:17.418Z - info: Using extension pptx@3.2.1
+2022-06-16T16:24:17.419Z - info: Using extension scheduling@3.0.2
+2022-06-16T16:24:17.441Z - info: Using extension scripts@3.2.1
+2022-06-16T16:24:17.441Z - info: Using extension static-pdf@3.0.0
+2022-06-16T16:24:17.442Z - info: Using extension studio@3.6.0
+2022-06-16T16:24:17.509Z - info: Using extension xlsx@3.2.1
+2022-06-16T16:24:17.522Z - info: Using extension public-templates@3.0.0
+2022-06-16T16:24:17.523Z - info: Using extension sample-template@3.2.1
+2022-06-16T16:24:17.524Z - info: Using extension studio-theme-dark@3.0.1
+2022-06-16T16:24:17.525Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-06-16T16:24:17.525Z - warn: options.allowLocalFilesAccess is deprecated, use options.trustUserCode instead
+2022-06-16T16:24:17.525Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-06-16T16:24:17.525Z - info: Using fs provider for template store.
+2022-06-16T16:24:17.530Z - info: fs store is persisting using fs for /Users/silverhong/Desktop/Report_Server/data
+2022-06-16T16:24:17.534Z - info: fs store is loading data
+2022-06-16T16:24:17.547Z - info: fs store is initialized successfully
+2022-06-16T16:24:17.561Z - info: Creating default express app.
+2022-06-16T16:24:17.580Z - info: jsreport server successfully started on http port: 8000
+2022-06-16T16:24:17.585Z - info: Verifying license key free
+2022-06-16T16:24:17.586Z - info: Using free license
+2022-06-16T16:24:17.590Z - info: Initializing worker threads
+2022-06-16T16:24:17.744Z - info: 2 worker threads initialized in 154ms
+2022-06-16T16:24:17.744Z - info: Starting temp files cleanup with 180000ms threshold
+2022-06-16T16:24:17.745Z - info: reporter initialized
+2022-06-16T16:24:18.142Z - info: Render request 1 queued for execution and waiting for availible worker rootId=b12q1m2mblb1cjc, id=b12q1m2mblb1cjc
+2022-06-16T16:24:18.208Z - info: Starting rendering request 1 (user: admin) rootId=b12q1m2mblb1cjc, id=b12q1m2mblb1cjc
+2022-06-16T16:24:18.208Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=b12q1m2mblb1cjc, id=b12q1m2mblb1cjc
+2022-06-16T16:24:19.523Z - info: pdf-utils is starting pdf processing rootId=b12q1m2mblb1cjc, id=b12q1m2mblb1cjc
+2022-06-16T16:24:19.539Z - info: Starting rendering request 1 (user: admin) rootId=b12q1m2mblb1cjc, id=jhd9hihnzwb0vtk
+2022-06-16T16:24:19.539Z - info: Rendering template { name: Header-Footer, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=b12q1m2mblb1cjc, id=jhd9hihnzwb0vtk
+2022-06-16T16:24:20.901Z - info: Rendering request 1 finished in 2699 ms rootId=b12q1m2mblb1cjc, id=jhd9hihnzwb0vtk
+2022-06-16T16:24:20.901Z - info: pdf-utils pdf processing was finished rootId=b12q1m2mblb1cjc, id=b12q1m2mblb1cjc
+2022-06-16T16:24:20.901Z - info: Rendering request 1 finished in 2760 ms rootId=b12q1m2mblb1cjc, id=b12q1m2mblb1cjc
+2022-06-16T17:11:32.115Z - info: fs store is loading data
+2022-06-16T18:24:16.835Z - info: fs store is loading data
+2022-06-16T18:42:07.865Z - info: fs store is loading data
+2022-06-16T18:58:48.843Z - info: fs store is loading data
+2022-06-16T19:15:59.839Z - info: fs store is loading data
+2022-06-16T19:54:38.852Z - info: fs store is loading data
+2022-06-16T20:18:21.858Z - info: fs store is loading data
+2022-06-16T20:51:07.831Z - info: fs store is loading data
+2022-06-16T21:25:51.769Z - info: fs store is loading data
+2022-06-16T22:19:59.756Z - info: fs store is loading data
+2022-06-16T23:14:06.730Z - info: fs store is loading data
+2022-06-17T00:08:14.689Z - info: fs store is loading data
+2022-06-17T00:41:39.193Z - info: fs store is loading data

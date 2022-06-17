@@ -1,0 +1,14 @@
+{
+    "shortid": "Sy5S19ncg",
+    "name": "data",
+    "creationDate": {
+        "$$date": 1577696044120
+    },
+    "modificationDate": {
+        "$$date": 1655396656539
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "sToLTLlKViaRWE4u",
+    "$entitySet": "data"
+}

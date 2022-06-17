@@ -1,0 +1,16 @@
+2022-06-16T15:29:29.634Z - error: Error when processing OData POST: /odata/assets Error: Entity name can not be empty
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/createError.js:10:13)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/main/validateEntityName.js:26:11)
+    at Object.insert (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/main/store/collection.js:86:7)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-06-16T15:55:48.193Z - error: Report render failed: Unexpected string in JSON at position 323 SyntaxError: Unexpected string in JSON at position 323
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/request.js:60:17)
+    at module.exports (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/shared/request.js:36:23)
+    at WorkerReporter._render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/render/render.js:112:21)
+    at WorkerReporter.render (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:128:17)
+    at /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/reporter.js:174:12)
+    at Object.execute (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/jsreport-core/lib/worker/workerHandler.js:52:23)
+    at /Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:93:41
+    at Domain.<anonymous> (/Users/silverhong/Desktop/Report_Server/node_modules/@jsreport/advanced-workers/lib/workerHandler.js:141:25) rootId=artajjy5yy7p6la, id=artajjy5yy7p6la

@@ -1,0 +1,292 @@
+<!--
+Invoice dynamically rendered into html using handlebars and converted into pdf
+using chrome-pdf recipe. The styles are extracted into separate asset for
+better readability and later reuse.
+
+Data to this sample are mocked at the design time and should be filled on the
+incoming API request.
+!-->
+
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style>
+        {#asset invoice-styles.css @encoding=utf8}
+        @font-face {
+            font-family: 'Khmer OS Muol Light';
+            src: url({#asset KhmerOS_muollight.ttf @encoding=dataURI});
+            format('ttf');
+        }
+
+        @font-face {
+            font-family: 'Khmer OS Content';
+            src: url({#asset KhmerOScontent.ttf @encoding=dataURI});
+            format('ttf');
+        }
+
+        .invoice-box {
+            /* max-width: 559.37px; */
+            /* margin: auto; */
+            /* border: 1px solid #eee; */
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, .15); */
+            /* font-size: 16px;
+            line-height: 24px; */
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+            color: #555;
+        }
+
+        .invoice-box table {
+            width: 100%;
+            margin-right: 0px;
+            border-spacing: 0px;
+            line-height: inherit;
+            text-align: left;
+        }
+
+        .invoice-box table td {
+            vertical-align: top;
+            font-family: Khmer OS Content;
+            font-size: 12px;
+            margin: 0px;
+        }
+
+        .invoice-header {
+            line-height: 13px;
+            /* padding:0px; */
+            align: right;
+            margin: 0px;
+            text-align: right;
+        }
+
+        .invoice-total {
+            text-align: right;
+            text-align: center;
+        }
+
+        .invoice-total table tr td.total {
+            text-align: right;
+            vertical-align: center;
+            font-size: 14px;
+            text-decoration: underline;
+            line-height: 16px;
+        }
+
+        .invoice-total table tr td.title {
+            text-align: right;
+            vertical-align: bottom;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        .invoice-box table tr table td.customer td {
+            line-height: 15px;
+            /* padding:0px; */
+            align: right;
+            margin: 0px;
+        }
+
+        /* .invoice-box table tr td:nth-child(2) {
+            text-align: right;
+        } */
+
+        /* .invoice-box table tr.top table td {
+            padding-bottom: 20px;
+        }
+
+        .invoice-box table tr.top table td.title {
+            font-family: 'Khmer OS Content';
+            font-size: 45px;
+            line-height: 45px;
+            color: #333;
+        } */
+
+        /* .invoice-box table tr.information table td {
+            padding-bottom: 40px;
+        } */
+
+        .invoice-box table tr.heading td {
+            background: #eee;
+            border-bottom: 1px solid #ddd;
+            font-weight: bold;
+        }
+
+        .invoice-box table tr.details td {
+            /* padding-bottom: 20px; */
+        }
+
+        .invoice-box table tr.item td {
+            line-height:20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .invoice-box table tr.item.last td {
+            border-bottom: none;
+        }
+
+        .invoice-box table tr.total td:nth-child(2) {
+            border-top: 2px solid #eee;
+            font-weight: bold;
+        }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    {{!-- Header --}}
+
+    {{{pdfAddPageItem header.invoice-number}}}
+    {{{pdfAddPageItem header.invoice-date}}}
+
+    {{!-- List Item --}}
+    <div class="invoice-box" style="min-height:200px">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="heading ">
+                <td>
+                </td>
+                <td>
+                    ល.រ
+                </td>
+                <td>
+                    កូដទំនិញ
+                </td>
+                <td>
+                    បរិយាយ
+                </td>
+                <td>
+                    ចំនួន
+                </td>
+                <td>
+                    តំលៃ
+                </td>
+                <td>
+                    បញ្ចុះតំលៃ
+                </td>
+                <td>
+                    សរុប
+                </td>
+            </tr>
+            {{{pdfCreatePagesGroup header=header customer=customer}}}
+            {{#each items}}
+            
+            
+            <tr class="item">
+                <td>
+                    <input type="checkbox">
+                </td>
+                <td>
+                    {{no}}
+                </td>
+                <td>
+                    {{item_code}}
+                </td>
+                <td>
+                     {{desc}}
+                </td>
+                <td>
+                    {{qty}}
+                </td>
+                <td>
+                    $ {{price}}
+                </td>
+                <td>
+                    $ {{discount}}
+                </td>
+                <td>
+                    $ {{total}}
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+    <div style="display:inline-block;page-break-before: avoid">
+        <div class="invoice-box invoice-total" style="margin-top:10px">
+            <hr size="1px"></hr>
+        <table>
+            <tr>
+                <td style="width:60%;font-size:10px">
+                    ១-អតិថិជនត្រូវពិនិត្យទំនិញពេលដាក់ទំនិញប្រសិនបើដាក់រួចមានការបាត់បង់ក្រុមហ៊ុនមិនទទួលខុសត្រូវ
+                </td>
+                <td rowspan="3">
+                    <table>
+                        <tr>
+                            <td class="title">
+                                សរុបរង៖
+                            </td>
+                            <td class="total">
+                                $ {{total.total}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                បញ្ចុះតំលៃ៖
+                            </td>
+                            <td class="total">
+                                $ {{total.discount}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                សរុបដុល្លា៖
+                            </td>
+                            <td class="total">
+                                $ {{total.totalUSD}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="title">
+                                សរុបប្រាក់រៀល៖
+                            </td>
+                            <td class="total">
+                                ៛ {{total.totalKHR}}
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="font-size:10px">
+                    ២-អតិថិជនមិនអាចប្តូរទំនិញ ឬ ត្រឡប់ទំនិញវិញបានទេ
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="invoice-box​ invoice-total" style="margin-top:50px;display:flex;justify-content: center;align-items: center;">
+        <table>
+            <tr>
+                <td style="padding-right:10px;padding-left:10px">
+                    <hr style="border: 0.5px solid black;" width="100">
+                </td>
+                <td style="padding-right:10px;padding-left:10px">
+                    <hr style="border: 0.5px solid black;" width="100">
+                </td>
+                <td style="padding-right:10px;padding-left:10px">
+                    <hr style="border: 0.5px solid black;" width="100">
+                </td>
+                <td style="padding-right:10px;padding-left:10px">
+                    <hr style="border: 0.5px solid black;" width="100">
+                </td>
+            </tr>
+            <tr style="font-family:Khmer OS Content;font-size:10px;text-align:center">
+                <td>
+                    ហត្ថាលេខាអ្នកលក់
+                </td>
+                <td>
+                    ហត្ថាលេខាអ្នកកាន់ស្តុក
+                </td>
+                <td>
+                    ហត្ថាលេខាអ្នកដឹកទំនិញ
+                </td>
+                <td>
+                    ហត្ថាលេខានឹងឈ្មោះអតិថិជន
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+
+</html>

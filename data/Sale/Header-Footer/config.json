@@ -1,0 +1,25 @@
+{
+    "shortid": "SygRkdrYbv",
+    "name": "Header-Footer",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "format": "A5",
+        "marginTop": "0cm",
+        "marginRight": "0cm",
+        "marginBottom": "0cm",
+        "marginLeft": "0cm"
+    },
+    "creationDate": {
+        "$$date": 1596704751888
+    },
+    "modificationDate": {
+        "$$date": 1655395118225
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "ZHUtAfKwPC9hvtul",
+    "$entitySet": "templates",
+    "data": null
+}

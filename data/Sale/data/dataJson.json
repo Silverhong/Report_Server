@@ -1,0 +1,65 @@
+{
+    "header":{
+        "invoice-number":"AY220616001",
+        "invoice-date":"22/06/2022",
+        "seller":"KIMHONG",
+        "invoice-printed":"KIMHONG",
+        "qrcode":"https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example"
+    },
+    "customer":{
+        "addcode":"PP-000231",
+        "name":"General Customer",
+        "store":"A13",
+        "market":"Toul Kork",
+        "phone":"070 202 669",
+        "address": "Phnom Penh"
+    },
+    "total":{
+        "total":"30.00",
+        "discount":"2.00",
+        "totalUSD":"28.00"
+    },
+    "items": [{
+        "no":"001",
+        "item_code":"CST63",
+        "desc":"កាសស្តាប់ត្រចៀកឥតខ្សែ TWS",
+        "qty":"1",
+        "price":"4.94",
+        "discount":"0",
+        "total":"4.94"
+    },
+    {
+        "no":"002",
+        "item_code":"LM53",
+        "desc":"មីក្រូហ្វូន​​ Lavalier ថតសំលេងបាន",
+        "qty":"3",
+        "price":"10.00",
+        "discount":"2.00",
+        "total":"28.00"
+    },{
+        "no":"001",
+        "item_code":"1200-BLACK",
+        "desc":"ទឹកអប់1231រីខូលិចពណ៍ក្រហម",
+        "qty":"3",
+        "price":"10",
+        "discount":"2",
+        "total":"28.00"
+    },{
+        "no":"001",
+        "item_code":"1200-BLACK",
+        "desc":"ទឹកអប់1231រីខូលិចពណ៍ក្រហម",
+        "qty":"3",
+        "price":"10",
+        "discount":"2",
+        "total":"28.00"
+    },{
+        "no":"001",
+        "item_code":"1200-BLACK",
+        "desc":"ទឹកអប់1231រីខូលិចពណ៍ក្រហម",
+        "qty":"3",
+        "price":"10",
+        "discount":"2",
+        "total":"28.00"
+    }
+    ]
+}
